@@ -65,48 +65,33 @@ split into three deliverables:
 
 ## 3. How the Repo Functions
 
-### Structure
-```
-AI Directory/
-    AgentRules.md    — reference materials, context, and rules the AI follows
-    Workflows/
-        Brainstorming.md
-    MemoryBank.md     — running project context across sessions
-    Generated Outputs/ — any file outputs the AI makes
-
-Users Directory/
-    Course Assignments/  — assignments divided into folders, each holding
-                            drafts/final outputs
-    Issues/
-        CurrentIssues.md      — list of current issues, open or resolved
-        CurrentIssuesList.csv
-
-Course Files/
-    Readings/
-    AI Explanations/  — write-ups explaining a concept or problem, made
-                         whenever a student asks the AI to explain one
-
-README.md
-```
-
 The repo is organized around **who's using each part**: the `AI Directory`
-holds what an AI assistant needs to work here consistently, the
-`Users Directory` holds the assignment work and issue tracking, and
-`Course Files` holds shared course material.
+holds what the AI agent needs to work here consistently and what it
+produces, `Course Files` holds shared course material, and
+`Users Directory` holds the team's own inputs and outputs.
 
-### Reference materials the AI should use
+### File Structure
 
-For TOGAF questions or drafting, the AI should ground its answers only in
-the three sources kept under `Course Files/Readings/`:
+- [README.md](README.md)
+- **AI Directory** — the AI agent's rules, memory, and outputs
+  - [AgentRules.md](AI%20Directory/AgentRules.md) — rules and personality
+    the agent follows
+  - [MemoryBank.md](AI%20Directory/MemoryBank.md) — session/decision log
+    and source of truth; updated after every major piece of work
+  - **Generated Outputs/** — files the agent generates
+  - **Workflows/** — team-defined process rules (none set yet)
+- **Course Files** — shared TOGAF/course material
+  - **Readings/** — the source-of-truth texts for TOGAF concepts:
+    1. The TOGAF® Standard, 10th Edition
+    2. The TOGAF® Enterprise Architecture Foundation Study Guide
+    3. Mastering the TOGAF® Standard (Eric Jager)
+  - **AI Explanations/** — concept write-ups the agent produces on request
+- **Users Directory** — the team's own inputs and outputs
+  - **Course Assignments/** — drafts/finals, one folder per assignment
+  - **Issues/** — [CurrentIssues.md](Users%20Directory/Issues/CurrentIssues.md)
+    and [CurrentIssuesList.csv](Users%20Directory/Issues/CurrentIssuesList.csv)
+    track open/resolved issues in sync; the agent updates both whenever an
+    issue comes up
 
-1. The TOGAF® Standard, 10th Edition
-2. The TOGAF® Enterprise Architecture Foundation Study Guide
-3. Mastering the TOGAF® Standard (Eric Jager)
-
-The assignment/guidelines document should **not** be cited as a TOGAF
-source — it's instructions for the assignment, not TOGAF content itself.
-
-### Workflow
-No specific workflow is defined yet. `AI Directory/Workflows/` exists for
-whenever the team standardizes a repeatable process (e.g. brainstorming or
-review routine); until then, work proceeds ad hoc.
+> **Note:** the assignment/guidelines doc isn't a TOGAF source — it's
+> instructions for the assignment only.
