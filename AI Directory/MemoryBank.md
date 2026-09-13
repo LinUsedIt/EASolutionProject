@@ -13,8 +13,15 @@ don't append duplicates here.)_
   Architecture — see `AgentRules.md`)
 - **Team:** Student A (Organizational Architect), Student B (Framework &
   Metamodel Architect)
-- **Chosen enterprise:** _not yet finalized_
-- **Current phase / focus:** _update as work progresses_
+- **Chosen enterprise:** _not yet finalized_ — the team is currently
+  identifying and interviewing candidate enterprises for Assignment 1
+  (First Draft Enterprise Proposal). First candidate interviewed: the
+  **Mentoring Division, Center for Student Affairs (CSA), University of
+  Asia and the Pacific** (stakeholder interview conducted 2026-09-11; see
+  `Users Directory/Course Assignments/Assignment 1 - First Draft Enterprise
+  Proposal/`). Not yet confirmed as the final choice.
+- **Current phase / focus:** Sourcing/vetting candidate enterprises for
+  Assignment 1.
 
 ## Key Decisions
 _(Running list — append, don't overwrite. One line per decision, with the
@@ -25,7 +32,10 @@ date and a one-line reason.)_
 ## Open Questions / Risks / Next Steps
 _(Running list — append. Cross out or move to Key Decisions once resolved.)_
 
--
+- Is CSA's Mentoring Division (UA&P) the final enterprise choice, or will
+  the team keep evaluating other candidates? An interview has been
+  conducted with them, but no other candidates are logged yet as of
+  2026-09-12.
 
 ## Session Log
 
