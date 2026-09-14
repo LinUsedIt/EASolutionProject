@@ -11,10 +11,9 @@ don't append duplicates here.)_
 - **Project:** EASolutionProject
 - **Course:** IT Elective: Solution Architecture (content is Enterprise
   Architecture — see `AgentRules.md`)
-- **Team:** Student A (Organizational Architect), Student B (Framework &
-  Metamodel Architect) — real names per the interview transcript:
-  Emmanuel Velasco and Deejay Clark Datu (A/B role mapping not yet
-  confirmed).
+- **Team:** Deejay Clark Datu ("Clark") — Student B, Framework & Metamodel
+  Architect, leads Deliverable 2. Emmanuel Velasco — Student A,
+  Organizational Architect, leads Deliverable 1.
 - **Chosen enterprise:** the **Mentoring Division, Center for Student
   Affairs (CSA), University of Asia and the Pacific (UA&P)**. Stakeholder
   interview conducted 2026-09-11 (Ms. Nina and Ms. Kelai, Operations
@@ -28,7 +27,9 @@ don't append duplicates here.)_
   Proposal") — Preliminary Phase deliverables (Organizational Model for
   EA, Tailored Architecture Framework, Principles Catalog + Request for
   Architecture Work). **Deadline: 2026-09-15** (stated as "this Tuesday"
-  in the 2026-09-11 interview).
+  in the 2026-09-11 interview). Work is split: Clark owns Deliverable 2
+  (Tailored Architecture Framework), Emmanuel owns Deliverable 1
+  (Organizational Model for EA).
 
 ## Key Decisions
 _(Running list — append, don't overwrite. One line per decision, with the
@@ -89,6 +90,60 @@ without needing the original conversation.
 **Next Steps:**
 - 
 ```
+
+### [2026-09-14] — Deliverable 2 Kickoff and Enterprise-Criteria Verdict
+
+**Participants:** Clark (Deejay Clark Datu, Student B), Laufey
+
+**Summary:** Clark asked Laufey to assess, against the course's
+enterprise-selection criteria in `Project - Choosing the Enterprise
+Guide.pdf` (Clear Bounded Scope, Explicit Business Catalyst,
+Understandable Business/IT Landscape), whether CSA Mentoring Division
+actually qualifies. Verdict: passes cleanly on Business Catalyst (the new
+mandatory 3-sessions/semester policy) and Understandable Landscape (4
+nameable capabilities — Mentor Sourcing & Approval, Pairing, Session
+Monitoring/Compliance, Governance — with concrete supporting systems).
+Bounded Scope is the one real risk: the Mentoring Unit itself is only 2
+employees, well under the guide's 50–1,000-employee sizing anchor.
+Recommendation: not to switch enterprises, but to have Deliverable 1's
+Boundary & Scope Statement deliberately draw the EA boundary around the
+unit *plus* its direct interfaces (schools' coordinators, IT Office,
+Registrar, HR/Finance, and the governance chain up to Mancomm) rather
+than the 2-person headcount alone, since that's where the real
+division-of-labor complexity sits.
+
+Work split confirmed (see Project Snapshot): Clark takes Deliverable 2
+(Tailored Architecture Framework), Emmanuel takes Deliverable 1
+(Organizational Model for EA). Laufey briefed Deliverable 2
+in two parts: a Tailored Enterprise Metamodel (in/out entity pass — e.g.
+Organization Unit, Business Actor/Role, Business Process, Data Entity,
+and Application Component judged in scope; Technology Component/Network
+and Product/Contract judged out of scope, since the unit runs entirely on
+Google Workspace SaaS with no infrastructure ownership) and a Tailored
+Content Framework (phase-by-phase artifact commitments: Business
+Capability Map + a Pairing/Mentor-Change process diagram for Phase B,
+Data Entity Diagram for Phase C1, Application Communication Diagram for
+Phase C2, a deliberately lightweight Technology Portfolio Catalog for
+Phase D). No drafting has started yet — this was scoping only.
+
+**Decisions Made:**
+- Deliverable 1's Boundary & Scope Statement should draw the EA boundary
+  around the Mentoring Unit plus its direct interfaces, not just the
+  unit's 2-person headcount — the fix for the Bounded Scope risk, not a
+  reason to reconsider the enterprise choice.
+- Work split: Clark owns Deliverable 2; Emmanuel owns Deliverable 1.
+
+**Risks / Open Items:**
+- (Carried over) Whether CSA Mentoring Division's complexity will satisfy
+  Sir Pira's complexity-based grading — this session's Bounded Scope
+  framing fix reduces but doesn't eliminate the risk, since Sir Pira's
+  actual weighting is still unconfirmed.
+
+**Next Steps:**
+- Draft the real Deliverable 2 Tailored Enterprise Metamodel and Content
+  Framework documents.
+- Teammate to draft Deliverable 1, including the reframed Boundary &
+  Scope Statement.
 
 ### [2026-09-14] — Assignment 1 Deep Dive: TOGAF Framing, Scope, and Complexity Concerns
 
