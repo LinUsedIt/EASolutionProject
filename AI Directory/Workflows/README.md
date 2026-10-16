@@ -1,5 +1,9 @@
 # Workflows
 
-Custom workflow rules for Laufey, added by the team as needed (e.g. a
-standardized brainstorming or review routine). Empty until the team defines
-one — see `AgentRules.md` §6.
+Repeatable workflows now live as **skills** in `.claude/skills/`. Each
+skill is a folder with a `SKILL.md` that Laufey follows step by step, and
+you can run it as a slash command (for example `/plan-work`).
+
+To add a new workflow, ask Laufey to draft a skill for it, or copy an
+existing skill folder and edit its `SKILL.md`. See the list of skills in
+the root `README.md`.

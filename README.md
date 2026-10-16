@@ -1,97 +1,83 @@
 # EASolutionProject
 
-> **Course:** IT Elective: Solution Architecture — despite the name, this
-> course is about **Enterprise Architecture (EA)**, and that's the lens all
-> deliverables in this repo are built around.
-> **Team:** Student A (Organizational Architect) · Student B (Framework &
-> Metamodel Architect)
+> **Course:** IT Elective: Solution Architecture. Despite the name, this
+> course is about **Enterprise Architecture (EA)**, and that's the lens for
+> all the work in this repo.
+> **Professor:** Sir Pira
+> **Team:** Emmanuel Velasco · Deejay Clark Datu · Aldrin
 > **Status:** In progress
 
 ## 1. Project Description
 
-This repository is the working space for a two-student practicum in
-Enterprise Architecture, built around the TOGAF® Standard. The goal is to
-apply the TOGAF Architecture Development Method (ADM) to a **theoretical,
-mocked-up enterprise** rather than a real organization, so the team can
-practice the discipline end-to-end without the constraints of a live
-company.
+This repository is the team's working space for an Enterprise Architecture
+practicum built around the TOGAF® Standard. The team applies the TOGAF
+Architecture Development Method (ADM) to a real enterprise: the
+**Mentoring Unit of the Center for Student Affairs (CSA), University of
+Asia and the Pacific (UA&P)**. The team interviewed its operations
+coordinators on 2026-09-11 and 2026-09-28.
 
-The enterprise itself is chosen to fit a specific profile so the exercise
-stays realistic and tractable:
+There are no fixed roles or deliverables. The team works on whatever the
+professor asks for. Each request is recorded in
+[`AI Directory/Assignments.md`](AI%20Directory/Assignments.md) so nothing
+gets lost between sessions.
 
-- **Size:** a mid-sized regional business (roughly 50–1,000 employees) —
-  e.g. a wholesale distributor, a regional hospital/clinic, or a logistics
-  provider — large enough to have a real division of labor and multiple IT
-  systems, but small enough to model in full.
-- **A clear business catalyst:** a concrete driver such as a shift to online
-  sales, a legacy-to-cloud migration, or post-merger systems integration,
-  so every architectural decision can be traced back to a business reason.
-- **A legible business/IT landscape:** at least 2–4 recognizable business
-  capabilities (e.g. Customer Management, Logistics) and the applications
-  that support them.
+## 2. Working with Laufey (the AI assistant)
 
-> **TODO:** once the team finalizes the enterprise, log it in
-> `AI Directory/MemoryBank.md` and add a profile write-up under
-> `Users Directory/Course Assignments/EASolutionProject/`.
+Laufey is Claude Code, set up for this project by
+[`CLAUDE.md`](CLAUDE.md) and the files in `.claude/`.
 
-## 2. What This Project Covers (TOGAF)
+**Always open Claude Code from the `EASolutionProject` folder.** That's
+how it finds Laufey's rules, memory, skills, and settings. Opened from
+any other folder, it's just plain Claude.
 
-The work is scoped to TOGAF's **Preliminary Phase** — establishing the
-Architecture Capability before the ADM cycle proper (Phases A–H) begins —
-split into three deliverables:
+Useful commands (Laufey also uses these on its own when your request
+matches):
 
-### Deliverable 1 — Organizational Model for EA (Student A lead)
-- **Boundary and Scope Statement** — which departments, organizational units,
-  and geographic locations the EA team's work covers.
-- **Stakeholder Map & RACI Matrix** — key stakeholders (CEO, CFO, CIO,
-  business unit heads), their concerns, and who is Responsible, Accountable,
-  Consulted, or Informed for ADM activities.
-- **Framework Interface Assessment** — how the EA team's cadence interacts
-  with existing frameworks already in use (e.g. Agile/Scrum, ITIL).
+| Command | What it does |
+|---|---|
+| `/analyze-document` | Reviews a draft or document against TOGAF and the professor's requirements |
+| `/summarize-document` | Gives a faithful summary of a document |
+| `/plan-work` | Makes a plan with tasks, owners, and dates, or stress-tests yours |
+| `/make-study-guide` | Writes a chapter study guide into `Course Files/Study Guides/` |
+| `/log-assignment` | Records what the professor asked for |
+| `/log-issue` | Adds, updates, or closes an issue |
+| `/log-session` | Records the session in the memory files |
 
-### Deliverable 2 — Tailored Architecture Framework (Student B lead)
-- **Tailored Enterprise Metamodel** — the standard TOGAF Foundation
-  Metamodel, pared down to the entities that are actually relevant.
-- **Tailored Content Framework** — which catalogs, matrices, and diagrams
-  from the Extended Content Framework the team commits to producing in
-  later ADM phases.
+Laufey asks what format you want (Markdown, Word, or PDF) before creating
+a file, unless you've already said.
 
-### Deliverable 3 — Collaborative Foundations (joint)
-- **Principles Catalog** — 3–5 foundational Enterprise and Architecture
-  Principles, each written to the TOGAF four-part template (Name,
-  Statement, Rationale, Implications).
-- **Request for Architecture Work** — the formal brief from the business
-  sponsors that triggers the ADM cycle.
+## 3. How the Repo Is Organized
 
-## 3. How the Repo Functions
+The repo is organized around **who uses each part**.
 
-The repo is organized around **who's using each part**: the `AI Directory`
-holds what the AI agent needs to work here consistently and what it
-produces, `Course Files` holds shared course material, and
-`Users Directory` holds the team's own inputs and outputs.
+| Path | What's there |
+|---|---|
+| [`CLAUDE.md`](CLAUDE.md) | Laufey's identity, personality, and project context. Loads every session. |
+| `.claude/rules/` | Laufey's detailed rules, one topic per file. Load every session. |
+| `.claude/skills/` | The slash commands above |
+| `.claude/agents/` | Two helper agents: `togaf-researcher` (finds cited passages in the Readings) and `deliverable-reviewer` (independent review of drafts) |
+| `.claude/settings.json` | Makes Claude Code ask before Laufey edits its own rules or the team's files |
+| **AI Directory/** | Laufey's memory and outputs |
+| [`MemoryBank.md`](AI%20Directory/MemoryBank.md) | Current project snapshot, decisions, open questions |
+| [`Assignments.md`](AI%20Directory/Assignments.md) | Everything the professor has asked for |
+| [`SessionLog.md`](AI%20Directory/SessionLog.md) | History of every session, newest first |
+| `Generated Outputs/` | Analyses, plans, summaries, and drafts Laufey produces |
+| `Workflows/` | Replaced by the skills in `.claude/skills/` |
+| **Course Files/** | Shared course material |
+| `Readings/` | The only TOGAF sources Laufey cites: The TOGAF® Standard 10th Ed., the TOGAF® EA Foundation Study Guide, and *Mastering the TOGAF® Standard* (Eric Jager) |
+| `Study Guides/` | Chapter study guides |
+| `AI Explanations/` | Concept explanations Laufey writes on request |
+| `TOGAF Templates/` | Official deliverable templates, one folder per ADM phase |
+| **Users Directory/** | The team's own work |
+| `Course Assignments/` | Drafts, notes, interviews, and submissions, one folder per assignment |
+| `Issues/` | [`CurrentIssues.md`](Users%20Directory/Issues/CurrentIssues.md) and `CurrentIssuesList.csv`, kept in sync |
 
-### File Structure
+> **Note:** the professor's assignment guides are instructions for the
+> assignment, not TOGAF sources. Laufey uses them for requirements only.
 
-- [README.md](README.md)
-- **AI Directory** — the AI agent's rules, memory, and outputs
-  - [AgentRules.md](AI%20Directory/AgentRules.md) — rules and personality
-    the agent follows
-  - [MemoryBank.md](AI%20Directory/MemoryBank.md) — session/decision log
-    and source of truth; updated after every major piece of work
-  - **Generated Outputs/** — files the agent generates
-  - **Workflows/** — team-defined process rules (none set yet)
-- **Course Files** — shared TOGAF/course material
-  - **Readings/** — the source-of-truth texts for TOGAF concepts:
-    1. The TOGAF® Standard, 10th Edition
-    2. The TOGAF® Enterprise Architecture Foundation Study Guide
-    3. Mastering the TOGAF® Standard (Eric Jager)
-  - **AI Explanations/** — concept write-ups the agent produces on request
-- **Users Directory** — the team's own inputs and outputs
-  - **Course Assignments/** — drafts/finals, one folder per assignment
-  - **Issues/** — [CurrentIssues.md](Users%20Directory/Issues/CurrentIssues.md)
-    and [CurrentIssuesList.csv](Users%20Directory/Issues/CurrentIssuesList.csv)
-    track open/resolved issues in sync; the agent updates both whenever an
-    issue comes up
+## 4. Changing Laufey's Rules
 
-> **Note:** the assignment/guidelines doc isn't a TOGAF source — it's
-> instructions for the assignment only.
+Edit `CLAUDE.md` or the files in `.claude/rules/` directly, or ask Laufey
+to propose a change. It won't edit them without your approval. Keep
+rules short and specific: Claude follows concise instructions more
+reliably than long ones.

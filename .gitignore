@@ -1,0 +1,11 @@
+# Claude Code: personal files that shouldn't be shared
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Windows clutter
+desktop.ini
+Thumbs.db
+
+# Word / Office temporary lock files (created while a file is open)
+~$*

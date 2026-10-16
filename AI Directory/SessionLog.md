@@ -1,0 +1,337 @@
+# Session Log: EASolutionProject
+
+One entry per work session with Laufey, newest first. Laufey writes these
+with `/log-session`. This file isn't loaded automatically; Laufey reads it
+when someone asks about past sessions. The current-state summary is in
+`MemoryBank.md`.
+
+Entries marked **(reconstructed)** were written afterwards from git
+history and the files in the repo, not from a live session. They record
+what was produced, not what was discussed.
+
+## Entry format
+
+Follow this exactly. Write "None" in a field that has nothing; don't drop it.
+
+```
+### [YYYY-MM-DD] — [Short topic label]
+
+**Participants:** who was involved (e.g. Em, Clark, Aldrin, Laufey)
+
+**Summary:** a detailed narrative of what was discussed or worked on —
+enough that someone reading only this entry understands what happened
+without needing the original conversation.
+
+**Decisions Made:**
+- 
+
+**Risks / Open Items:**
+- 
+
+**Next Steps:**
+- 
+```
+
+## Entries
+
+### [2026-10-16] — Repo restructure: rules, skills, memory, and assignment tracking
+
+**Participants:** Emmanuel (assumed from the git author; correct if
+wrong), Claude (setting up the repo, outside the Laufey persona)
+
+**Summary:** Laufey wasn't reliably following its rules because nothing
+made Claude Code load `AI Directory/AgentRules.md`. Only a root
+`CLAUDE.md` is loaded automatically. The repo was restructured, moving
+and adding Markdown files only:
+- **Rules:** a new root `CLAUDE.md` holds Laufey's identity, personality,
+  responsibilities, team, and repo map, and imports `MemoryBank.md` and
+  `Assignments.md`. Topic rules were moved to `.claude/rules/`
+  (sources-and-citations, file-placement, file-formats, memory,
+  assignments, issue-logging, protected-files, team-and-git).
+  `AgentRules.md` was removed, since its content now lives in those files.
+- **Skills** in `.claude/skills/`: analyze-document, summarize-document,
+  plan-work, make-study-guide (with template.md, matching the existing
+  guides), log-session, log-issue, and log-assignment.
+- **Subagents** in `.claude/agents/`: togaf-researcher (read-only, cited
+  excerpts from the Readings) and deliverable-reviewer (read-only,
+  independent review against requirements and TOGAF).
+- **Settings:** `.claude/settings.json` makes Claude Code ask before
+  editing `CLAUDE.md`, `.claude/`, the team's assignment files, the
+  Readings, or the Templates. A `.gitignore` covers personal Claude files,
+  `desktop.ini`, and Office lock files.
+- **Memory:** `MemoryBank.md` was split. The snapshot, decisions, and open
+  questions stay there; session entries moved to this file. The snapshot
+  was caught up to A2. Reconstructed entries were backfilled for
+  2026-09-15 to 2026-10-15.
+- **Assignments:** a new `Assignments.md` records what the professor asks
+  for, backfilled with A1 and A2.
+- **Issues:** the seven findings from `Issues Log - First Draft Review.md`
+  were logged as ISS-001 to ISS-007, all open. That review file was moved
+  from the Assignment 1 folder to `AI Directory/Generated Outputs/`.
+
+**Decisions Made:**
+- No fixed roles or deliverables. Work follows the professor's requests,
+  recorded in `Assignments.md`.
+- Study guides are saved in `Course Files/Study Guides/`. Laufey asks for
+  the format before generating any file, unless it was already given.
+- Books and the interview recording stay in the repo.
+- ISS-001 to ISS-007 stay open; they were never fixed.
+
+**Risks / Open Items:**
+- A2 deadline not recorded.
+- Aldrin's surname not recorded.
+- Possible conflict between `Propsal Summary Format.pdf` and
+  `Em's Notes 2.pdf` about the Google Sheets (see MemoryBank Open
+  Questions).
+
+**Next Steps:**
+- Each team member pulls the changes and opens Claude Code from the
+  `EASolutionProject` folder.
+- Record A2's deadline and requirements with `/log-assignment`.
+
+### [2026-10-13 to 2026-10-15] — Study guides for Chapters 8–12 (reconstructed)
+
+**Participants:** Not recorded (reconstructed)
+
+**Summary:** Reconstructed from file dates; these files weren't
+committed as of 2026-10-16. New study guides were created in
+`Course Files/Study Guides/`: `TOGAF Ch8-9/` (Chapter 8, Architecture
+Governance; Chapter 9, Architecture Capability) and `TOGAF Ch10-12/`
+(Chapter 10, Architecture Roles, Skills, and Competencies; Chapter 11,
+Architecture Domains; Chapter 12, Architecture Development Method). A
+compiled guide, `Mastering the TOGAF Standard - Compiled Study Guide
+(Ch 1-12).pdf`, was also created. The TOGAF deliverable templates
+(`Course Files/TOGAF Templates/`, one folder per ADM phase) appeared
+around the same time.
+
+**Decisions Made:**
+- None recorded.
+
+**Risks / Open Items:**
+- None recorded.
+
+**Next Steps:**
+- Commit the new guides and the templates.
+
+### [2026-10-02] — Assignment 2 materials added (reconstructed)
+
+**Participants:** Emmanuel (git author)
+
+**Summary:** Reconstructed from commit b4bca30. Added the 2026-09-28
+follow-up interview transcript (Ms. Nina) and `Propsal Summary Format.pdf`,
+a condensed version of the proposal in a four-section layout, to
+`Users Directory/Course Assignments/Assignment 2 - Proposal Revision/`.
+
+**Decisions Made:**
+- None recorded.
+
+**Risks / Open Items:**
+- Unclear whether the summary layout came from the professor.
+
+**Next Steps:**
+- None recorded.
+
+### [2026-09-28 to 2026-09-29] — Professor feedback and second interview (reconstructed)
+
+**Participants:** Emmanuel, Clark (interviewers); Laufey (interview guide)
+
+**Summary:** Reconstructed from commit d326381 and the files. Sir Pira
+gave feedback on the A1 draft, captured in `Notes from Sir on
+revision.pdf`: focus on the business's WHY (purpose, strategy, drivers)
+rather than the HOW, look at data, business, tech, and apps, and work
+backwards from the problem to strategy. Laufey produced `CSA Mentoring -
+Second Interview Guide.docx` in `Generated Outputs`, merging Em's and
+Clark's questions and filling gaps against this feedback and the issues
+log. The follow-up interview with Ms. Nina took place on 2026-09-28. Em's
+notes (`Em's Notes 2.pdf`) record the program goals, the unit's two roles,
+mentor training with HR, external mentor sourcing by referral, the IT
+Office having linked the two Google Sheets, mentor-change requests as the
+biggest current problem, and the 3-session rule as non-negotiable. The
+submitted A1 draft (`Enterprise Proposal (Draft)_Datu, Velasco.pdf`) was
+also committed.
+
+**Decisions Made:**
+- None recorded.
+
+**Risks / Open Items:**
+- None recorded.
+
+**Next Steps:**
+- Revise the proposal around the WHY (A2).
+
+### [2026-09-17] — Study guides for Chapters 1–7 (reconstructed)
+
+**Participants:** Emmanuel (git author), Laufey
+
+**Summary:** Reconstructed from commit efe94fe. The segmented chapter
+PDFs of Jager's *Mastering the TOGAF Standard* were added, and Laufey
+generated detailed study guides for Chapters 1–7 in
+`Course Files/Study Guides/TOGAF Ch1-7/`.
+
+**Decisions Made:**
+- None recorded.
+
+**Risks / Open Items:**
+- None recorded.
+
+**Next Steps:**
+- None recorded.
+
+### [2026-09-15] — First Draft compiled and reviewed (reconstructed)
+
+**Participants:** Emmanuel (git author), Laufey
+
+**Summary:** Reconstructed from commit f919a07. The four A1 parts
+(Executive Summary, Deliverables 1–3) were added under `Parts/`. Laufey
+ran a cross-document review that produced `Issues Log - First Draft
+Review.md` (7 findings), compiled the parts into
+`Assignment 1 - Compiled Enterprise Proposal (Revised).docx`, and wrote
+`Assignment 1 - Revision Notes.docx`, which lists a proposed fix for each
+of the 7 findings in the compiled version. Per the team (2026-10-16),
+those fixes were never adopted in the team's own documents, so the issues
+remain open (ISS-001 to ISS-007).
+
+**Decisions Made:**
+- None recorded.
+
+**Risks / Open Items:**
+- The 7 findings remain open.
+
+**Next Steps:**
+- None recorded.
+
+### [2026-09-14] — Deliverable 2 Kickoff and Enterprise-Criteria Verdict
+
+**Participants:** Clark (Deejay Clark Datu, Student B), Laufey
+
+**Summary:** Clark asked Laufey to assess, against the course's
+enterprise-selection criteria in `Project - Choosing the Enterprise
+Guide.pdf` (Clear Bounded Scope, Explicit Business Catalyst,
+Understandable Business/IT Landscape), whether CSA Mentoring Division
+actually qualifies. Verdict: passes cleanly on Business Catalyst (the new
+mandatory 3-sessions/semester policy) and Understandable Landscape (4
+nameable capabilities — Mentor Sourcing & Approval, Pairing, Session
+Monitoring/Compliance, Governance — with concrete supporting systems).
+Bounded Scope is the one real risk: the Mentoring Unit itself is only 2
+employees, well under the guide's 50–1,000-employee sizing anchor.
+Recommendation: not to switch enterprises, but to have Deliverable 1's
+Boundary & Scope Statement deliberately draw the EA boundary around the
+unit *plus* its direct interfaces (schools' coordinators, IT Office,
+Registrar, HR/Finance, and the governance chain up to Mancomm) rather
+than the 2-person headcount alone, since that's where the real
+division-of-labor complexity sits.
+
+Work split confirmed (see Project Snapshot): Clark takes Deliverable 2
+(Tailored Architecture Framework), Emmanuel takes Deliverable 1
+(Organizational Model for EA). Laufey briefed Deliverable 2
+in two parts: a Tailored Enterprise Metamodel (in/out entity pass — e.g.
+Organization Unit, Business Actor/Role, Business Process, Data Entity,
+and Application Component judged in scope; Technology Component/Network
+and Product/Contract judged out of scope, since the unit runs entirely on
+Google Workspace SaaS with no infrastructure ownership) and a Tailored
+Content Framework (phase-by-phase artifact commitments: Business
+Capability Map + a Pairing/Mentor-Change process diagram for Phase B,
+Data Entity Diagram for Phase C1, Application Communication Diagram for
+Phase C2, a deliberately lightweight Technology Portfolio Catalog for
+Phase D). No drafting has started yet — this was scoping only.
+
+**Decisions Made:**
+- Deliverable 1's Boundary & Scope Statement should draw the EA boundary
+  around the Mentoring Unit plus its direct interfaces, not just the
+  unit's 2-person headcount — the fix for the Bounded Scope risk, not a
+  reason to reconsider the enterprise choice.
+- Work split: Clark owns Deliverable 2; Emmanuel owns Deliverable 1.
+
+**Risks / Open Items:**
+- (Carried over) Whether CSA Mentoring Division's complexity will satisfy
+  Sir Pira's complexity-based grading — this session's Bounded Scope
+  framing fix reduces but doesn't eliminate the risk, since Sir Pira's
+  actual weighting is still unconfirmed.
+
+**Next Steps:**
+- Draft the real Deliverable 2 Tailored Enterprise Metamodel and Content
+  Framework documents.
+- Teammate to draft Deliverable 1, including the reframed Boundary &
+  Scope Statement.
+
+### [2026-09-14] — Assignment 1 Deep Dive: TOGAF Framing, Scope, and Complexity Concerns
+
+**Participants:** Emmanuel (Student A/B, role unconfirmed), Laufey
+
+**Summary:** Late-night/early-morning session reviewing all Assignment 1
+source material for the first time together: the assignment guide
+(`Project - Choosing the Enterprise Guide.pdf`), the CSA interview
+question guide, the full `2026-09-11 interview transcript.pdf`, and
+`Em's Notes.pdf`. Laufey produced a five-part analysis: (1) a summary of
+what Assignment 1 actually requires (three Preliminary Phase deliverable
+sets — Organizational Model for EA, Tailored Architecture Framework,
+Collaborative Foundations/RFAW — all documents, no system-building); (2) a
+full profile of CSA's Mentoring Division built from the transcript and Em's
+Notes (org structure, ~1,500-1,800 students/~180 mentors, the new
+mandatory 3-sessions-per-semester policy as the business catalyst, the
+current Google Form/Script/Sheet session-logging pipeline, the two
+disconnected databases, and their two self-named pain points: pairing and
+monitoring); (3) proposed areas to explore per deliverable, grounded in
+specific transcript quotes; (4) a proposed document flow mirroring the
+Guide's own deliverable ordering; (5) words of encouragement given the
+looming deadline. This analysis was compiled into a `.docx` and saved to
+`AI Directory/Generated Outputs/CSA Mentoring Division - Assignment 1
+Analysis.docx` (built manually as an OOXML package since no pandoc/python
+was available in this environment) — explicitly requested by Emmanuel as
+a check that Laufey follows AgentRules §7 (outputs belong in Generated
+Outputs, not the assignment folder). Laufey flagged that the transcript's
+"this Tuesday" deadline reference (said 2026-09-11) resolves to
+**2026-09-15**.
+
+Three substantive concerns were then discussed. First, Emmanuel raised
+that school-side pairing turnaround can't be fixed since each school runs
+its own process — Laufey agreed this is a genuine external dependency and
+recommended documenting it as an explicit out-of-scope constraint (see Key
+Decisions) rather than attempting to redesign it, while suggesting
+in-scope adjacent improvements (retaining upperclassman pairings across
+semesters, standardizing the school-to-unit handoff format, visibility
+into which schools have/haven't submitted). Second, Emmanuel asked
+whether the assignment is about proposing a solution — Laufey corrected
+this: Assignment 1's deliverables are TOGAF **Preliminary Phase** artifacts
+(establishing the Architecture Capability), which require identifying
+business drivers/problems (needed for the RFAW) but explicitly do NOT
+require designing solutions to them (deferred to ADM Phases A–E later in
+the semester). Third, Emmanuel raised a grading concern relayed from Sir
+Pira (more complex business/solution = higher grade) — Laufey assessed
+CSA Mentoring Division as complex enough on stakeholder-breadth,
+data-integration, and governance dimensions, but flagged the risk of the
+write-up under-presenting that complexity, and recommended asking Sir
+Pira directly which dimension of complexity is actually graded. Finally,
+Emmanuel asked whether any proposed solution would be rendered pointless
+given Ms. Kelai's aside that ideal success looks like students no longer
+needing to log sessions at all — Laufey distinguished this hedged,
+aspirational comment from Ms. Nina's unhedged, operative success metric
+(3 sessions/semester), framed it as an Enterprise/Business Principle
+(culture, long-horizon) versus an Architecture Principle (near-term,
+actionable) distinction, and concluded it doesn't invalidate near-term
+monitoring work — if anything, monitoring data would be the evidence that
+such a cultural shift had actually happened.
+
+**Decisions Made:**
+- Proceeding with CSA's Mentoring Division (UA&P) as the enterprise;
+  not switching despite complexity concerns (see Key Decisions above).
+- School-side pairing turnaround treated as an out-of-scope external
+  constraint, not a redesign target (see Key Decisions above).
+
+**Risks / Open Items:**
+- Assignment 1 deadline is 2026-09-15 — very tight from this session.
+- Whether CSA Mentoring Division's complexity will satisfy Sir Pira's
+  complexity-based grading; pending his clarification.
+- How explicitly to address the "eventually no logging needed" aspiration
+  in the Principles Catalog/RFAW.
+
+**Next Steps:**
+- Draft Deliverable 1: Boundary & Scope Statement, Stakeholder Map &
+  RACI Matrix, Framework Interface Assessment.
+- Draft Deliverable 2: Tailored Enterprise Metamodel, Tailored Content
+  Framework.
+- Draft Deliverable 3: Principles Catalog (3-5 principles), Request for
+  Architecture Work.
+- Assemble into the proposed document flow (Exec Summary → D1 → D2 → D3
+  → Appendix) ahead of the 2026-09-15 deadline.
+- Ask Sir Pira what dimension of "complexity" is weighted in grading.
