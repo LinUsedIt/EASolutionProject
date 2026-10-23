@@ -32,26 +32,35 @@ it's graded and nothing more is expected.
 ### A3: Phases A-D (Architecture Vision through Technology Architecture)
 
 - **Status:** In progress
-- **Deadline:** Unknown
+- **Deadline:** 2026-10-30. Relayed by Em in chat on 2026-10-23; not yet
+  confirmed as Sir Pira's own date.
 - **Source:** relayed by Em in chat, 2026-10-16. Em believes this is
   Assignment 3 (numbering not confirmed).
 - **Requirements:**
   - Do ADM Phases A to D, using the official templates in
     `Course Files/TOGAF Templates/` (Phase A, B, C, and D folders).
+  - Choose only the templates that are necessary, not all of them.
+    (Em's reading of the course, relayed 2026-10-23; not confirmed as Sir
+    Pira's wording.)
   - Sir Pira "recommended that we also try to get the perspectives of
     the Mentoring Coordinators and Mentors on the mentoring program."
     (Recorded as a recommendation, not a hard requirement.)
-- **Format / submission:** Not specified yet.
+- **Format / submission:** one document per template used. (Em's belief,
+  relayed 2026-10-23; not confirmed as Sir Pira's wording.)
+- **Team's role:** the team provides inputs (at most). Laufey generates
+  the documents. (Relayed by Em, 2026-10-23.)
 - **Feedback from the professor:**
   - (none yet)
 - **Open questions:**
-  - Is this officially A3, and what is the deadline?
-  - Must every template in the Phase A and B folders be submitted, or
-    may the team tailor which ones it uses?
+  - Is this officially A3? Did Sir Pira set the 2026-10-30 deadline, or is
+    it the team's own date?
+  - Did Sir Pira say to choose only the necessary templates, or is that the
+    team's reading of the course?
   - Phases C and D have no fill-in template, only the list of
     recommended artifacts. Which catalogs, matrices, and diagrams does
     Sir expect?
-  - Is it one combined document or one document per template?
+  - Is it one document per template (as Em believes), or one combined
+    document? Confirm with Sir.
   - Was A2 (Proposal Revision) submitted? Its status is still unconfirmed.
 - **Team files:** not yet created. Individual interviews with school
   Mentoring Coordinators scheduled from 2026-10-16 (about 1 hour each).

@@ -34,6 +34,63 @@ without needing the original conversation.
 
 ## Entries
 
+### [2026-10-23] — A3 scoping: ADM Phases A-D and workload split
+
+**Participants:** Emmanuel (Em), Laufey
+
+**Summary:** Em asked what the Phase A-D templates in
+`Course Files/TOGAF Templates/` are for. Laufey explained that they map to
+ADM Phases A (Architecture Vision), B (Business Architecture), C
+(Information Systems: data and application), and D (Technology
+Architecture), and what each phase means for the CSA Mentoring Unit.
+Phase A's templates are Architecture Vision, Statement of Architecture
+Work, Capability Assessment, Communications Plan, and Architecture
+Definition. Phase B's are Architecture Requirements Specification and
+Architecture Roadmap. Phases C and D have no fill-in template, only the
+recommended artifacts list in `Architecture Deliverables Phases C and D.docx`.
+Laufey read the templates directly and did not yet pull page-level TOGAF
+citations from the Readings. Em then confirmed: deadline 2026-10-30; choose
+only the necessary templates, as the team did in its scope; one document per
+template; the team provides inputs at most, and Laufey generates the
+documents. Em's reading of the first two points, and his belief on the third,
+are not yet confirmed as Sir Pira's own wording. Laufey proposed a workload
+split: Em takes Phase A core (Architecture Vision, Statement of Architecture
+Work) and the final consistency check; Clark takes Phase B and the
+Capability Assessment; Aldrin takes the Communications Plan and the Phase C
+and D artifacts. Architecture Definition is last and shared, because it draws
+on B, C, and D. Laufey flagged that Aldrin's Phase C and D work is blocked
+until the IT Office ownership conflict is settled, and that the seven-day
+window is tight, with an internal input target of 2026-10-27. A3 was updated
+in `Assignments.md`. No documents have been generated yet.
+
+**Decisions Made:**
+- A3 deadline is 2026-10-30 (relayed by Em; not yet confirmed as Sir's date).
+- Use only the necessary Phase A-D templates, not all of them (Em's reading).
+- One document per template (Em's belief).
+- The team provides inputs at most; Laufey generates the documents.
+- Proposed split, pending the team's agreement: Em (Phase A core, final
+  consistency check), Clark (Phase B, Capability Assessment), Aldrin
+  (Communications Plan, Phase C and D artifacts), Architecture Definition last
+  and shared.
+
+**Risks / Open Items:**
+- Aldrin's Phase C and D work is blocked by the IST vs. IT Office ownership
+  conflict (see MemoryBank Open Questions).
+- Clark carries the heaviest load (Phase B plus Capability Assessment).
+- The seven-day window is tight, and the school coordinator interview is
+  still pending, which feeds the Capability Assessment and Communications Plan.
+- Not yet confirmed with Sir Pira: deadline, the template-selection rule, and
+  the one-document-per-template format.
+- The team has not agreed to the proposed split.
+
+**Next Steps:**
+- The team confirms or changes the workload split.
+- Confirm the open A3 questions with Sir Pira (deadline, template selection,
+  format, and whether he expects specific C and D artifacts).
+- Resolve the IST vs. IT Office conflict before Phase C and D inputs.
+- Team sends inputs by the internal target of 2026-10-27.
+- Laufey drafts the chosen documents once the inputs arrive.
+
 ### [2026-10-23] — Full study guide set for Mastering the TOGAF Standard (Ch 1-22)
 
 **Participants:** Emmanuel (assumed from this machine's user folder; correct if wrong), Laufey

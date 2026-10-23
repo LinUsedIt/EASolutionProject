@@ -37,9 +37,14 @@ duplicates.)_
     handled by long email chains; dependence on the schools and the
     Registrar for pairings; uncertainty about whether students will log
     their sessions properly.
-- **Current focus:** A2, Proposal Revision. Sir's feedback is to reframe
-  around the business's WHY (purpose, strategy, drivers) before the HOW.
-  The deadline is not yet recorded.
+- **Current focus:** A3, Phases A-D (ADM), due 2026-10-30 (relayed by Em;
+  not yet confirmed as Sir's date). Proposed split: Em (Phase A core and
+  consistency check), Clark (Phase B and Capability Assessment), Aldrin
+  (Communications Plan and Phase C/D artifacts), Architecture Definition
+  last and shared. Team input target 2026-10-27. Not yet agreed by the
+  team. A2 (Proposal Revision) is still unconfirmed as submitted, and its
+  deadline is not recorded. Sir's A2 feedback: reframe around the business's
+  WHY before the HOW.
 - **Study guides:** as of 2026-10-23, every chapter of Jager's book (1-22)
   has an updated PDF study guide in `Course Files/Updated Study Guides/`,
   in range subfolders. The same folder holds a Book Summary Guide, a
@@ -78,6 +83,10 @@ one-line reason.)_
   whole-book guides) go in `Course Files/Updated Study Guides/`, with no
   "v2" in file names. The original `Study Guides/` folder is left
   untouched. Reason: Em's request.
+- **2026-10-23:** A3 scope: the team provides inputs at most, and Laufey
+  generates the documents, one per chosen template, using only the necessary
+  Phase A-D templates. Reason: Em's answers (his reading of the course; not
+  yet confirmed by Sir Pira).
 
 ## Open Questions
 _(Append. Move to Key Decisions once answered.)_
@@ -92,6 +101,10 @@ _(Append. Move to Key Decisions once answered.)_
   rule needs ongoing evidence.
 - **A2:** the deadline, and whether the summary-format layout came from
   the professor (see `Assignments.md`).
+- **A3:** whether Sir Pira set the 2026-10-30 deadline; whether he meant
+  "only the necessary templates" and "one document per template"; which
+  catalogs and diagrams he expects for Phases C and D; whether A2 was
+  submitted. Also whether the team accepts the proposed workload split.
 - **Possible conflict to check** (spotted 2026-10-16, not yet logged as an
   issue): `Propsal Summary Format.pdf` §1.1 and §1.3 say the IST
   department creates *and manages* the tools and that the two Google
