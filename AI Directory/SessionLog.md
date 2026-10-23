@@ -34,6 +34,60 @@ without needing the original conversation.
 
 ## Entries
 
+### [2026-10-23] — Full study guide set for Mastering the TOGAF Standard (Ch 1-22)
+
+**Participants:** Emmanuel (assumed from this machine's user folder; correct if wrong), Laufey
+
+**Summary:** The request was to make (1) a summary guide of the whole of
+Jager's *Mastering the TOGAF Standard*, (2) detailed guides for every
+chapter, including chapters 1-12 that already had guides, and (3) one
+guide connecting all the chapters and concepts, with chapter and section
+references. Format agreed: PDF. Em then asked for all the new files to go
+in a separate folder, `Course Files/Updated Study Guides/`, with no "v2" in
+any file name. That is where everything now lives, in range subfolders
+`TOGAF Ch1-7/`, `Ch8-9/`, `Ch10-12/`, and `Ch13-22/`. The original guides
+in `Course Files/Study Guides/` are untouched. Laufey extracted
+the text of all 22 segmented chapter PDFs and read every chapter in full.
+It checked page images where the extracted text was scrambled or missing
+(Table 2-1, Table 7-4, and several pages of Chapter 12). It wrote each guide
+to the make-study-guide template, with page references and Jager's
+opinions labelled separately from the Standard, and rendered them with a
+new reportlab script. The updated guides also fix the raw `*`/`>` Markdown
+showing in the old PDFs. Files created in `Updated Study Guides/`:
+- 22 chapter guides (`Chapter N - Title - Study Guide.pdf`) in the four
+  range subfolders
+- `Mastering the TOGAF Standard - Book Summary Guide.pdf` (7 pp.)
+- `Mastering the TOGAF Standard - Connecting the Concepts Study Guide.pdf`
+  (12 pp.: nine cross-chapter threads, an ADM backbone table, commonly
+  confused pairs, an A-Z concept index, and linking questions)
+- `Mastering the TOGAF Standard - Compiled Study Guide (Ch 1-22).pdf`
+  (128 pp., with bookmarks)
+- A `README.md` in the new folder. `Course Files/Study Guides/README.md`
+  now points to it.
+Book slips noted inside the guides: Ch 3 p. 48 points to "Chapter 18" for
+digital transformation (it is Ch 19); Ch 11 p. 285 says the "2008 eighth
+edition" (TOGAF 8 was 2002); Ch 16's mapping section is numbered "16.3.3";
+Ch 14 p. 626 mislabels interoperability cell 2A; Ch 22 says "four types
+of iteration" (Ch 13 has three ways and four groups).
+
+**Decisions Made:**
+- All new guides live in `Course Files/Updated Study Guides/`, with no
+  "v2" in names. The old `Study Guides/` folder is left as it was.
+
+**Risks / Open Items (rules):**
+- `.claude/rules/file-placement.md` and the make-study-guide skill still
+  say study guides go in `Course Files/Study Guides/`. They need updating
+  if `Updated Study Guides/` becomes the standard location (proposed, not
+  changed).
+
+**Risks / Open Items:**
+- The study guides cite the book's page numbers. Claims about the TOGAF
+  Standard itself are Jager's account, and were not cross-checked
+  against the Standard PDF.
+
+**Next Steps:**
+- The team reviews the guides. Commit them when happy (not committed yet).
+
 ### [2026-10-16] — Repo restructure: rules, skills, memory, and assignment tracking
 
 **Participants:** Emmanuel (assumed from the git author; correct if

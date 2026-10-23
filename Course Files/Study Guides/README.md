@@ -19,3 +19,7 @@ page references throughout.
 The file name is `Chapter N - Chapter Title - Study Guide.<ext>`, in plain
 ASCII. The compiled guide for all chapters is
 `Mastering the TOGAF Standard - Compiled Study Guide (Ch 1-12).pdf`.
+
+**Newer guides:** updated guides for all 22 chapters, plus a book summary,
+a Connecting the Concepts guide, and a compiled Ch 1-22 PDF, are in
+`Course Files/Updated Study Guides/` (added 2026-10-23).

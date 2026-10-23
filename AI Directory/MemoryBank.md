@@ -40,6 +40,11 @@ duplicates.)_
 - **Current focus:** A2, Proposal Revision. Sir's feedback is to reframe
   around the business's WHY (purpose, strategy, drivers) before the HOW.
   The deadline is not yet recorded.
+- **Study guides:** as of 2026-10-23, every chapter of Jager's book (1-22)
+  has an updated PDF study guide in `Course Files/Updated Study Guides/`,
+  in range subfolders. The same folder holds a Book Summary Guide, a
+  Connecting the Concepts guide, and a compiled Ch 1-22 PDF. The older Ch
+  1-12 guides remain in `Course Files/Study Guides/`.
 - **Repo setup:** restructured on 2026-10-16. Laufey's rules are now in
   `CLAUDE.md` and `.claude/rules/`, and its procedures are skills in
   `.claude/skills/`.
@@ -69,6 +74,10 @@ one-line reason.)_
 - **2026-10-16:** The seven findings from the First Draft review are
   logged as ISS-001 to ISS-007 and stay open. They were never fixed in the
   team's own documents.
+- **2026-10-23:** All new and updated study guides (Ch 1-22 plus the
+  whole-book guides) go in `Course Files/Updated Study Guides/`, with no
+  "v2" in file names. The original `Study Guides/` folder is left
+  untouched. Reason: Em's request.
 
 ## Open Questions
 _(Append. Move to Key Decisions once answered.)_
