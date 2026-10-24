@@ -21,7 +21,13 @@ duplicates.)_
   Pacific (UA&P).
   - **Interviews:** 2026-09-11 with Ms. Nina and Ms. Kelai (Operations
     Coordinators), and a follow-up on 2026-09-28 with Ms. Nina. The
-    transcripts and Em's notes are in the assignment folders.
+    transcripts and Em's notes are in the assignment folders. School
+    Mentoring Coordinator interviews are complete for the SSE and SED
+    schools (reported 2026-10-24). The SSE transcript is in
+    `Users Directory/Course Assignments/Assignment 3 - Phase A - D/Transcripts/`;
+    the SED transcript is not yet filed. Mentor interviews
+    remain, using the coordinator question set modified for mentors.
+    Coordinators are also mentors.
   - **Size:** 2 staff, one handling monitoring (Ms. Kelai) and one
     handling mentor training. About 1,500–1,600 undergraduates and about
     180 mentors. Sponsor: CSA Executive Director.

@@ -62,8 +62,13 @@ it's graded and nothing more is expected.
   - Is it one document per template (as Em believes), or one combined
     document? Confirm with Sir.
   - Was A2 (Proposal Revision) submitted? Its status is still unconfirmed.
-- **Team files:** not yet created. Individual interviews with school
-  Mentoring Coordinators scheduled from 2026-10-16 (about 1 hour each).
+- **Team files:** Individual interviews with school Mentoring Coordinators
+  are complete (SSE and SED schools; reported by Em, 2026-10-24). The SSE
+  transcript is filed at `Users Directory/Course Assignments/Assignment 3 - Phase A - D/Transcripts/Mentoring Coordinator Interview - SSE.pdf`
+  (interview dated 2026-10-20, Aldrin asking). The SED transcript is not yet
+  filed. Remaining: interviews with mentors,
+  using the same question set, modified for mentors. The coordinators are
+  also mentors. Scheduled from 2026-10-16 (about 1 hour each).
   Guide: `AI Directory/Generated Outputs/2026-10-16 - CSA Mentoring - School Coordinator Interview Guide (v2).docx`
   (v2 trimmed to 18 live questions to fit 60 minutes; the original is kept)
 
