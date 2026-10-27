@@ -44,11 +44,10 @@ duplicates.)_
     Registrar for pairings; uncertainty about whether students will log
     their sessions properly.
 - **Current focus:** A3, Phases A-D (ADM), due 2026-10-30 (relayed by Em;
-  not yet confirmed as Sir's date). Proposed split: Em (Phase A core and
-  consistency check), Clark (Phase B and Capability Assessment), Aldrin
-  (Communications Plan and Phase C/D artifacts), Architecture Definition
-  last and shared. Team input target 2026-10-27. Not yet agreed by the
-  team. A2 (Proposal Revision) is still unconfirmed as submitted, and its
+  not yet confirmed as Sir's date). Split (set 2026-10-27): Em does Phase A,
+  Aldrin does Phase B, Clark does Phases C and D. Em gives inputs and
+  Laufey refines and generates the documents, so Em learns and applies
+  TOGAF himself. Submission is Friday 2026-10-30. A2 (Proposal Revision) is still unconfirmed as submitted, and its
   deadline is not recorded. Sir's A2 feedback: reframe around the business's
   WHY before the HOW.
 - **Study guides:** as of 2026-10-23, every chapter of Jager's book (1-22)
@@ -93,6 +92,11 @@ one-line reason.)_
   generates the documents, one per chosen template, using only the necessary
   Phase A-D templates. Reason: Em's answers (his reading of the course; not
   yet confirmed by Sir Pira).
+- **2026-10-27:** A3 split: Em = Phase A, Aldrin = Phase B, Clark = Phases
+  C and D. Em supplies inputs and Laufey refines and generates, so Em
+  learns TOGAF by applying it; Laufey may generate more directly only in an
+  emergency or near the deadline. Reason: Em's request. Weekly Claude
+  credits are nearly used up, so keep exchanges short and batched.
 
 ## Open Questions
 _(Append. Move to Key Decisions once answered.)_
@@ -110,7 +114,7 @@ _(Append. Move to Key Decisions once answered.)_
 - **A3:** whether Sir Pira set the 2026-10-30 deadline; whether he meant
   "only the necessary templates" and "one document per template"; which
   catalogs and diagrams he expects for Phases C and D; whether A2 was
-  submitted. Also whether the team accepts the proposed workload split.
+  submitted.
 - **Possible conflict to check** (spotted 2026-10-16, not yet logged as an
   issue): `Propsal Summary Format.pdf` §1.1 and §1.3 say the IST
   department creates *and manages* the tools and that the two Google
