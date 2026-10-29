@@ -101,6 +101,26 @@ issue is later closed.
 - **Resolved:** No
 - **Date Resolved:** —
 
+### [ISS-008] — Principle P2 implication is out of date
+
+- **Issue:** One implication of Principle 2 (Data Consistency and Accuracy) in the A1/A2 Principles Catalog says the session-log database and the pairing database are isolated. Per the 2026-09-28 interview with OSM, the IT Office has since linked the session-log sheet to OSM's master database, so confirmed sessions update it automatically. What remains unlinked is OSM's database and the school coordinators' own pairing lists. Found while drafting Phases C and D (2026-10-30). Owner: Em.
+- **Date Recorded:** 2026-10-30
+- **Possible Solutions:**
+  - Reword the implication: the session-log sheet now updates OSM's master database, but the coordinators' pairing lists are still separate
+  - Or leave the A1 text as historical and rely on the Phase C baseline (Section 2.1 of the Phases C and D document), which states the corrected picture
+- **Resolved:** No
+- **Date Resolved:** —
+
+### [ISS-009] — Non-compliance consequence: two or three semesters?
+
+- **Issue:** The RFAW (A1) says two consecutive semesters of non-compliance affect enrollment. The Phase B ARS (Motivation) and the Phase B handoff brief say three, following Em's Notes 2. Clark confirmed on 2026-10-30 that two is correct. Phase A should use two.
+- **Date Recorded:** 2026-10-30
+- **Possible Solutions:**
+  - Use two consecutive semesters in Phase A
+  - Aldrin to correct the Phase B ARS (listed in the 2026-10-30 Phase B change list)
+- **Resolved:** No
+- **Date Resolved:** —
+
 ## Resolved Issues
 
 _(none yet)_
