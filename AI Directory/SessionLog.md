@@ -34,6 +34,86 @@ without needing the original conversation.
 
 ## Entries
 
+### [2026-10-29] — A3 Phase B: brainstorm, cross-check, and Phase B documents
+
+**Participants:** Aldrin, Laufey
+
+**Summary:** Aldrin owns Phase B. The template in Aldrin's Downloads is
+byte-identical to the one in `Course Files/TOGAF Templates/Phase B - Business Architecture/`
+(Architecture Requirements Specification and Architecture Roadmap).
+Laufey cross-checked the earlier outputs (A1 revised proposal, SessionLog)
+against Em's Notes 2 and both coordinator transcripts, then brainstormed
+the Phase B inputs with Aldrin question by question.
+
+Two transcript labels turned out to be wrong:
+- `Transcripts/2026-10-16 interview.pdf` is Dr. Olmos, the **SSE** male
+  coordinator.
+- `Transcripts/Mentoring Coordinator Interview - SSE.pdf` (2026-10-20) is
+  actually Sir Lactao, the **School of Education (SED)** coordinator.
+- So the SED transcript was already filed, just under the wrong label.
+
+Aldrin decided that Phase B fills only what the two Phase B templates ask
+for. The business models (capability map, process diagrams, baseline,
+target, gap analysis) are handed to whoever writes the Architecture
+Definition Document, through a handoff brief.
+
+Laufey produced, all in `AI Directory/Generated Outputs/`:
+- `2026-10-29 - A3 Phase B - Architecture Requirements Specification.docx`
+  (8 success measures, 8 business service contracts, guidelines,
+  constraints, assumptions; the Phase C and D sections are marked as such)
+- `2026-10-29 - A3 Phase B - Architecture Roadmap.docx` (business roadmap
+  components BA-01 to BA-08, business rows of the gap matrix, candidate
+  transitions; the rest is marked Phase E per the template)
+- `2026-10-29 - A3 Phase B - Diagrams/` (capability map, plus Pairing and
+  Mentor Change diagrams in baseline and target versions; PNG and SVG)
+- `2026-10-29 - A3 Phase B - Brainstorm Brief and Handoff.md` (every
+  decision, with its source)
+
+The Word files were built by filling the official templates' XML, because
+this laptop has no pandoc, no python-docx, and no pip internet access.
+Laufey opened both in Word and checked them through a PDF export. The
+diagrams were rendered with headless Edge. The Canva and Figma connectors
+failed to connect.
+
+**Decisions Made:**
+- Phase B = the ARS and the Roadmap only. The business models go to the
+  ADD owner through the handoff brief.
+- Capabilities (7): Mentor Sourcing & Approval, Mentor Development,
+  Mentee-Mentor Pairing, Pairing Change Management, Session Logging &
+  Compliance Monitoring, Program Evaluation & Reporting, Program Promotion.
+- School Mentoring Coordinators decide the pairings, with same-school
+  mentors preferred. Male and female coordinators split the student list
+  by sex. Same-gender mentor pairing is NOT a rule (only an SSE footnote).
+- Baseline pairing starts at the Registrar. The list goes to OSM and then
+  to the coordinator, or the coordinator asks the Registrar directly. The
+  process includes the returning-student survey, the capacity check, the
+  overflow step, and the notifications.
+- Goal: foster holistic education in line with UA&P's vision. Objective:
+  see student growth closely. Drivers: the President's mandate (3-session
+  rule), mentoring as a hallmark, and the need for evidence.
+- Target: one centralized end-to-end workflow with a single pairing
+  register. The single platform is a Phase C requirement. Automated
+  matching is a later transition step.
+- The two Google Sheets (session log and pairing lists) are NOT connected
+  (Aldrin), which overrides Em's Notes 2.
+- The old Dragon's Lair platform is left out of the baseline.
+
+**Risks / Open Items:**
+- The target state is the team's proposal and has not been validated with
+  OSM or the sponsor. All "proposed" success-measure targets need
+  confirmation.
+- The ADD owner has not been assigned, and the ADD still needs the
+  business models from the handoff brief.
+- Em should re-check the Sheets claim in Em's Notes 2.
+- The transcript files are still mislabeled. They were not renamed,
+  because they are the team's files.
+
+**Next Steps:**
+- Em and Clark review the Phase B documents before 2026-10-30.
+- Clark picks up the single-platform requirement and the
+  pairing-register data in Phase C.
+- Decide who writes the ADD, using the handoff brief.
+
 ### [2026-10-23] — A3 scoping: ADM Phases A-D and workload split
 
 **Participants:** Emmanuel (Em), Laufey

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1410" height="1450" viewBox="0 0 1410 1450" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6b7280"/></marker></defs>
+<rect width="1410" height="1450" fill="white"/>
+<text x="40" y="38" font-size="20" font-weight="600" fill="#1f2937">Mentor-Mentee Pairing: Baseline (current state)</text>
+<text x="40" y="62" font-size="13" fill="#4b5563">Lists move by email; last year&#x27;s pairings are rebuilt by hand because they were never saved</text>
+<rect x="40" y="80" width="240" height="1308" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="160.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Registrar</text>
+<rect x="280" y="80" width="240" height="1308" fill="white" stroke="#d1d5db"/>
+<text x="400.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Office of Student Mentoring</text>
+<rect x="520" y="80" width="240" height="1308" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="640.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">School Mentoring Coordinator</text>
+<rect x="760" y="80" width="240" height="1308" fill="white" stroke="#d1d5db"/>
+<text x="880.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Mentor</text>
+<rect x="1000" y="80" width="240" height="1308" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="1120.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Student</text>
+<rect x="60.0" y="140.0" width="200" height="64" rx="32" fill="#ecfdf5" stroke="#047857" stroke-width="1.5"/>
+<text x="160.0" y="168.0" text-anchor="middle" font-size="12" fill="#1f2937">Term starts:</text>
+<text x="160.0" y="184.0" text-anchor="middle" font-size="12" fill="#1f2937">list of enrolled students</text>
+<rect x="60.0" y="244.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="160.0" y="272.0" text-anchor="middle" font-size="12" fill="#1f2937">Releases student list</text>
+<text x="160.0" y="288.0" text-anchor="middle" font-size="12" fill="#1f2937">(name, email, course, year)</text>
+<rect x="300.0" y="348.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="400.0" y="376.0" text-anchor="middle" font-size="12" fill="#1f2937">Receives list, sorts</text>
+<text x="400.0" y="392.0" text-anchor="middle" font-size="12" fill="#1f2937">and forwards per school</text>
+<rect x="540.0" y="452.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="640.0" y="472.0" text-anchor="middle" font-size="12" fill="#1f2937">Receives school list;</text>
+<text x="640.0" y="488.0" text-anchor="middle" font-size="12" fill="#1f2937">male / female coordinator</text>
+<text x="640.0" y="504.0" text-anchor="middle" font-size="12" fill="#1f2937">split it by sex</text>
+<rect x="1020.0" y="556.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="1120.0" y="576.0" text-anchor="middle" font-size="12" fill="#1f2937">Returning students answer</text>
+<text x="1120.0" y="592.0" text-anchor="middle" font-size="12" fill="#1f2937">&quot;keep your mentor?&quot; form</text>
+<text x="1120.0" y="608.0" text-anchor="middle" font-size="12" fill="#1f2937">(about 10-20% reply)</text>
+<rect x="540.0" y="660.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="640.0" y="688.0" text-anchor="middle" font-size="12" fill="#1f2937">Rebuilds last year&#x27;s pairs</text>
+<text x="640.0" y="704.0" text-anchor="middle" font-size="12" fill="#1f2937">by hand (list not saved)</text>
+<rect x="780.0" y="764.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="880.0" y="792.0" text-anchor="middle" font-size="12" fill="#1f2937">Asked by email: can you</text>
+<text x="880.0" y="808.0" text-anchor="middle" font-size="12" fill="#1f2937">take more mentees?</text>
+<polygon points="540.0,900.0 640.0,862.0 740.0,900.0 640.0,938.0" fill="#fff7ed" stroke="#c2410c" stroke-width="1.5"/>
+<text x="640.0" y="896.0" text-anchor="middle" font-size="12" fill="#1f2937">Same-school mentor</text>
+<text x="640.0" y="912.0" text-anchor="middle" font-size="12" fill="#1f2937">has capacity?</text>
+<rect x="540.0" y="972.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="640.0" y="1000.0" text-anchor="middle" font-size="12" fill="#1f2937">Absorbs mentee, or refers</text>
+<text x="640.0" y="1016.0" text-anchor="middle" font-size="12" fill="#1f2937">to another school&#x27;s mentor</text>
+<rect x="540.0" y="1076.0" width="200" height="64" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="640.0" y="1104.0" text-anchor="middle" font-size="12" fill="#1f2937">Final list of</text>
+<text x="640.0" y="1120.0" text-anchor="middle" font-size="12" fill="#1f2937">mentee-mentor pairs</text>
+<rect x="780.0" y="1180.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="880.0" y="1208.0" text-anchor="middle" font-size="12" fill="#1f2937">Receives mentee list</text>
+<text x="880.0" y="1224.0" text-anchor="middle" font-size="12" fill="#1f2937">by email</text>
+<rect x="300.0" y="1284.0" width="200" height="64" rx="32" fill="#ecfdf5" stroke="#047857" stroke-width="1.5"/>
+<text x="400.0" y="1312.0" text-anchor="middle" font-size="12" fill="#1f2937">Emails students</text>
+<text x="400.0" y="1328.0" text-anchor="middle" font-size="12" fill="#1f2937">their assigned mentor</text>
+<path d="M160.0 204.0V244.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M160.0 308.0V334.0H400.0V348.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M400.0 412.0V438.0H640.0V452.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M640.0 516.0V542.0H1120.0V556.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M1120.0 620.0V646.0H640.0V660.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M640.0 724.0V750.0H880.0V764.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M880.0 828.0V848.0H640.0V862.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M640.0 1140.0V1166.0H880.0V1180.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M880.0 1244.0V1270.0H400.0V1284.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M160.0 308.0V422.0H640.0V452.0" fill="none" stroke="#6b7280" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="168.0" y="437.0" font-size="11" font-style="italic" fill="#4b5563">or coordinator asks Registrar directly</text>
+<path d="M540.0 900.0H524.0V1108.0H540.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="520.0" y="1004.0" text-anchor="end" font-size="11" font-style="italic" fill="#4b5563">yes</text>
+<path d="M640.0 938.0V972.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="648.0" y="959.0" text-anchor="start" font-size="11" font-style="italic" fill="#4b5563">no</text>
+<path d="M640.0 1036.0V1076.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="40" y="1428" font-size="12" fill="#4b5563">Sources: Interview with SSE Mentoring Coordinator (2026-10-16); Interview with SED Mentoring Coordinator (2026-10-20).</text>
+</svg>

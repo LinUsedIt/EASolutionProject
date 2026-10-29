@@ -23,9 +23,11 @@ duplicates.)_
     Coordinators), and a follow-up on 2026-09-28 with Ms. Nina. The
     transcripts and Em's notes are in the assignment folders. School
     Mentoring Coordinator interviews are complete for the SSE and SED
-    schools (reported 2026-10-24). The SSE transcript is in
-    `Users Directory/Course Assignments/Assignment 3 - Phase A - D/Transcripts/`;
-    the SED transcript is not yet filed. Mentor interviews
+    schools (reported 2026-10-24). Both transcripts are in
+    `Users Directory/Course Assignments/Assignment 3 - Phase A - D/Transcripts/`,
+    but are mislabeled: `2026-10-16 interview.pdf` is Dr. Olmos (SSE), and
+    `Mentoring Coordinator Interview - SSE.pdf` is Sir Lactao, School of
+    Education (SED) (found 2026-10-29). Mentor interviews
     remain, using the coordinator question set modified for mentors.
     Coordinators are also mentors.
   - **Size:** 2 staff, one handling monitoring (Ms. Kelai) and one
@@ -47,7 +49,14 @@ duplicates.)_
   not yet confirmed as Sir's date). Split (set 2026-10-27): Em does Phase A,
   Aldrin does Phase B, Clark does Phases C and D. Em gives inputs and
   Laufey refines and generates the documents, so Em learns and applies
-  TOGAF himself. Submission is Friday 2026-10-30. A2 (Proposal Revision) is still unconfirmed as submitted, and its
+  TOGAF himself. Submission is Friday 2026-10-30. Phase B drafts (ARS,
+  Roadmap, diagrams, handoff brief) are done as of 2026-10-29, in
+  `AI Directory/Generated Outputs/2026-10-29 - A3 Phase B - *`, and await
+  review. The ADD owner has not been assigned yet. **Em and Clark:** read
+  §7 of `2026-10-29 - A3 Phase B - Brainstorm Brief and Handoff.md`. It
+  says which Phase B diagrams to reuse in your phases, and which "To be
+  completed in Phase X" headings you may delete. Aldrin is polishing
+  Phase B from a fix list (2026-10-29). A2 (Proposal Revision) is still unconfirmed as submitted, and its
   deadline is not recorded. Sir's A2 feedback: reframe around the business's
   WHY before the HOW.
 - **Study guides:** as of 2026-10-23, every chapter of Jager's book (1-22)
@@ -97,6 +106,20 @@ one-line reason.)_
   learns TOGAF by applying it; Laufey may generate more directly only in an
   emergency or near the deadline. Reason: Em's request. Weekly Claude
   credits are nearly used up, so keep exchanges short and batched.
+- **2026-10-29:** Phase B fills only the two Phase B templates (ARS and
+  Roadmap). The business models go to the ADD owner through
+  `Generated Outputs/2026-10-29 - A3 Phase B - Brainstorm Brief and Handoff.md`.
+  Reason: Aldrin's call ("do whatever the template asks for").
+- **2026-10-29:** Each school's Mentoring Coordinator decides pairings,
+  with same-school mentors preferred. Male and female coordinators split
+  the student list, but same-gender mentor pairing is not a rule. The
+  target is one centralized workflow with a single pairing register. The
+  single platform is a Phase C requirement, and automated matching is a
+  later transition step. Reason: Aldrin's input, cross-checked with both
+  coordinator interviews.
+- **2026-10-29:** The session-log Google Sheet and the coordinators'
+  pairing lists are NOT connected. This answers the open "possible
+  conflict" and overrides Em's Notes 2. Reason: Aldrin's direct knowledge.
 
 ## Open Questions
 _(Append. Move to Key Decisions once answered.)_
@@ -115,9 +138,10 @@ _(Append. Move to Key Decisions once answered.)_
   "only the necessary templates" and "one document per template"; which
   catalogs and diagrams he expects for Phases C and D; whether A2 was
   submitted.
-- **Possible conflict to check** (spotted 2026-10-16, not yet logged as an
-  issue): `Propsal Summary Format.pdf` §1.1 and §1.3 say the IST
-  department creates *and manages* the tools and that the two Google
-  Sheets are isolated. `Em's Notes 2.pdf` (from the 2026-09-28 interview)
-  says the IT Office has already linked the two Sheets, and that it only
-  creates the forms and sheets while the unit manages them.
+- **Possible conflict to check** (spotted 2026-10-16): who *manages* the
+  tools. `Propsal Summary Format.pdf` says the IST department, and
+  `Em's Notes 2.pdf` says the unit. The Sheets-linked part was answered
+  on 2026-10-29: they are not linked (see Key Decisions).
+- **A3:** who writes the Architecture Definition Document (it spans
+  Phases B to D)? The Phase B target state and "proposed" success measures
+  still need validation with OSM and the sponsor.
