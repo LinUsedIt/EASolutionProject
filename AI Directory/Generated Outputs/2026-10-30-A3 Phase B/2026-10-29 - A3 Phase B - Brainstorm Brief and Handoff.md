@@ -35,7 +35,8 @@ should carry them over from this brief.
 - **Drivers:**
   1. The new University President's mandate: mentoring became mandatory,
      with at least 3 sessions per semester. This is non-negotiable, and
-     missing it for 3 consecutive semesters affects enrollment. (Em's Notes 2)
+     missing it for 2 consecutive semesters affects enrollment. (RFAW, A1;
+     confirmed by Clark 2026-10-30, ISS-009. Em's Notes 2 said 3.)
   2. Mentoring is a UA&P hallmark. It is unique, and CHED does not require
      it. (Em's Notes 2)
   3. The need for evidence that the program works, aiming at 100%

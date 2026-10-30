@@ -38,8 +38,8 @@ duplicates.)_
     (holistic) formation of students. The unit exists to keep the program
     uniform and centralized across schools.
   - **Catalyst:** from AY 2026-27, students must have at least 3 mentoring
-    sessions per semester. Failing this for three consecutive semesters
-    affects enrollment. The requirement is non-negotiable. Participation
+    sessions per semester. Failing this for two consecutive semesters
+    affects enrollment (per the RFAW; confirmed by Clark 2026-10-30, ISS-009). The requirement is non-negotiable. Participation
     became mandatory under the new university President.
   - **Current pain points:** a large number of mentor-change requests,
     handled by long email chains; dependence on the schools and the
@@ -49,14 +49,17 @@ duplicates.)_
   not yet confirmed as Sir's date). Split (set 2026-10-27): Em does Phase A,
   Aldrin does Phase B, Clark does Phases C and D. Em gives inputs and
   Laufey refines and generates the documents, so Em learns and applies
-  TOGAF himself. Submission is Friday 2026-10-30. Phase B drafts (ARS,
-  Roadmap, diagrams, handoff brief) are done as of 2026-10-29, in
-  `AI Directory/Generated Outputs/2026-10-29 - A3 Phase B - *`, and await
-  review. The ADD owner has not been assigned yet. **Em and Clark:** read
-  §7 of `2026-10-29 - A3 Phase B - Brainstorm Brief and Handoff.md`. It
-  says which Phase B diagrams to reuse in your phases, and which "To be
-  completed in Phase X" headings you may delete. Aldrin is polishing
-  Phase B from a fix list (2026-10-29). A2 (Proposal Revision) is still unconfirmed as submitted, and its
+  TOGAF himself. Submission is Friday 2026-10-30. **Phase B is final
+  (2026-10-30):** the latest files are the **(v2)** ARS and **(v2)** Roadmap
+  in `AI Directory/Generated Outputs/2026-10-30-A3 Phase B/` (the
+  unversioned files there are the 10-29 drafts). v2 applies Clark's Phase
+  C-D change list, fills ARS 2.3/2.6-2.8 and Roadmap 2.2-2.3, and adds
+  preliminary drafts of Roadmap 3.1, 3.2, 3.3.1-3.3.4 and 3.5. **Em: please
+  check both v2 files** (and make sure Phase A uses *two* consecutive
+  semesters, ISS-009) before submission. The ADD owner has not been
+  assigned yet. **Em and Clark:** §7 of the handoff brief (same folder)
+  says which Phase B diagrams to reuse; the diagrams are still in
+  `Generated Outputs/2026-10-29 - A3 Phase B - Diagrams/`. A2 (Proposal Revision) is still unconfirmed as submitted, and its
   deadline is not recorded. Sir's A2 feedback: reframe around the business's
   WHY before the HOW.
 - **Study guides:** as of 2026-10-23, every chapter of Jager's book (1-22)
@@ -120,6 +123,10 @@ one-line reason.)_
 - **2026-10-29:** The session-log Google Sheet and the coordinators'
   pairing lists are NOT connected. This answers the open "possible
   conflict" and overrides Em's Notes 2. Reason: Aldrin's direct knowledge.
+- **2026-10-30:** Missing the 3-session requirement for **two** consecutive
+  semesters (not three) affects enrollment. Overrides Em's Notes 2. Phase B
+  ARS and the handoff brief are corrected. Reason: matches the RFAW (A1);
+  confirmed by Clark (ISS-009).
 
 ## Open Questions
 _(Append. Move to Key Decisions once answered.)_
