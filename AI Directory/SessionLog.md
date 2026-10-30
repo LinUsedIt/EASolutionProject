@@ -34,6 +34,81 @@ without needing the original conversation.
 
 ## Entries
 
+### [2026-10-30] — A3 Phase B: change list applied, Roadmap Section 3 drafted, pushed
+
+**Participants:** Aldrin, Laufey
+
+**Summary:** Aldrin pulled Clark's commit `1b73673`. It added the Phase C-D
+deliverables (`2026-10-30 - A3 Phase C-D - Architecture Deliverables.docx`
+plus diagrams C1-C3), a Phase B change list for Aldrin, and issues ISS-008
+and ISS-009. Laufey applied the whole change list to new **(v2)** copies of
+the Phase B ARS and Roadmap. The edits were made with python-docx, which was
+installed on Aldrin's laptop for this; pip's SSL check failed there, so
+Aldrin approved `--trusted-host` for that one install. The changes:
+- **Eight corrections.** "Three consecutive semesters" became two (ISS-009).
+  The session-log wording now says logs update OSM's master database but
+  are not tied to a recorded pairing (ISS-008 context). The stray Roadmap
+  note is deleted, and the Roadmap Contents entry now reads "Technology".
+- **ARS** 2.3 (S1-S5 service table), 2.6 (TS1-TS6), 2.7 (a new bullet on
+  external mentors) and 2.8 were filled in.
+- **Roadmap** 2.2 (IS-01 to IS-05) and 2.3 (TA-01 to TA-03) were filled in.
+  Six Data, Application and Technology rows were added to the 3.3 gap
+  matrix, and the new IDs were added to the 3.4 transitions.
+- **Phase E notes.** ARS 2.5 now has a one-line Phase E note.
+
+Aldrin then asked for more Roadmap content, all marked "preliminary, to be
+confirmed in Phase E":
+- **3.3.1-3.3.4:** one paragraph explaining each column of the gap matrix.
+- **3.1 Work Package Portfolio:** four work packages, each delivering one
+  capability. WP1 is the Central Pairing Register and Student-List Intake,
+  and WP2 is Mentor Change Requests (both Transition 1). WP3 is the Standard
+  Pairing Workflow, Capacity and Notifications, and WP4 is Session-Log
+  Compliance and Semester Reporting (both Transition 2). BA-08 is not
+  scoped. Each subheading 3.1.1-3.1.6 has a table.
+- **3.2 Implementation Factor Catalog:** one paragraph each for risks,
+  issues, assumptions, dependencies, actions and inputs.
+- **3.5:** a table of effectiveness measures, risks R-01 to R-06, and
+  candidate SBBs on Google Workspace. The SBBs are taken from Clark's
+  Section 4.
+
+Laufey first advised against 3.1 and 3.5, because they are Phase E work
+outside A3. Aldrin chose to draft them anyway. All content reuses existing
+IDs (BA/IS/TA/SM/S/TS/A/C); nothing new was invented.
+
+Aldrin moved the Phase B files into
+`AI Directory/Generated Outputs/2026-10-30-A3 Phase B/` and kept one working
+Roadmap (v2, document version 0.3). The ARS (v2) is document version 0.2.
+The handoff brief and `MemoryBank.md` now say two semesters. Everything was
+committed and pushed as `e25924f`, with a note in MemoryBank asking Em to
+check both v2 files.
+
+**Decisions Made:**
+- Missing the 3-session rule for two consecutive semesters (not three)
+  affects enrollment (ISS-009; Clark confirmed, matches the RFAW).
+- Roadmap 3.1 groups the components into four capability-based work
+  packages (WP1-WP4), not one per transition or one per component.
+- Roadmap 3.1, 3.2 and 3.5 are included as preliminary drafts marked "to
+  be confirmed in Phase E". Roadmap 3.2-3.5 are kept in A3 despite being
+  Phase E work. Reason: Aldrin's call.
+- Updates go into the latest version file, with no extra version copies
+  (Aldrin's request).
+
+**Risks / Open Items:**
+- The new tables were checked by script only. Their layout in Word has not
+  been reviewed.
+- ISS-008 (Em's A1 principle wording) and ISS-009 (Phase A must use two
+  semesters) stay open until Em confirms.
+- Sir Pira has not said whether he expects any Phase E content (3.1, 3.5)
+  in A3.
+- The targets and the target state still need validation with OSM and the
+  CSA Executive Director.
+
+**Next Steps:**
+- Em: review the ARS (v2) and the Roadmap (v2), and check that Phase A uses
+  two semesters. Then close ISS-009.
+- Aldrin: skim both v2 files in Word before submission (2026-10-30).
+- Assign the ADD owner.
+
 ### [2026-10-29] — A3 Phase B: brainstorm, cross-check, and Phase B documents
 
 **Participants:** Aldrin, Laufey

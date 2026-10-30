@@ -127,6 +127,12 @@ one-line reason.)_
   semesters (not three) affects enrollment. Overrides Em's Notes 2. Phase B
   ARS and the handoff brief are corrected. Reason: matches the RFAW (A1);
   confirmed by Clark (ISS-009).
+- **2026-10-30:** The Phase B Roadmap includes *preliminary* drafts of
+  3.1 (four capability-based work packages, WP1-WP4), 3.2 and 3.5, marked
+  "to be confirmed in Phase E". Reason: Aldrin's call; Laufey had flagged
+  them as Phase E work outside A3.
+- **2026-10-30:** Edits go into the latest version file. Don't make extra
+  version copies. Reason: Aldrin's request.
 
 ## Open Questions
 _(Append. Move to Key Decisions once answered.)_
@@ -144,7 +150,8 @@ _(Append. Move to Key Decisions once answered.)_
 - **A3:** whether Sir Pira set the 2026-10-30 deadline; whether he meant
   "only the necessary templates" and "one document per template"; which
   catalogs and diagrams he expects for Phases C and D; whether A2 was
-  submitted.
+  submitted; whether he expects any Phase E content (Roadmap 3.1, 3.5) in
+  A3.
 - **Possible conflict to check** (spotted 2026-10-16): who *manages* the
   tools. `Propsal Summary Format.pdf` says the IST department, and
   `Em's Notes 2.pdf` says the unit. The Sheets-linked part was answered
