@@ -11,9 +11,15 @@ Ch. 7, pp. 129-136).
 - Drafts go to `AI Directory/Generated Outputs/`. They move into
   `OSM Architecture/` only when a team member says they are approved, using
   `/publish-output`. Never publish unapproved work.
-- **No README, index, notes, or other helper files** inside
-  `OSM Architecture/`. Sir sees only deliverables. Empty folders hold a
-  `.gitkeep` so git keeps them. No drafts, transcripts, or internal notes.
+- **Only one helper file is allowed in `OSM Architecture/`: its `README.md`**
+  (it is the front page of the shared G7-Repository). It must not mention
+  Claude, Laufey, or internal files. No index, notes, drafts, or transcripts.
+  Empty folders hold a `.gitkeep` so git keeps them.
+- **Publishing:** `OSM Architecture/` is pushed to
+  `https://github.com/LinUsedIt/G7-Repository` (remote `sir`) with
+  `git subtree push --prefix="OSM Architecture" sir main`, after approval.
+  Commit changes to this folder separately, with a message about the
+  deliverable. Never edit files in G7-Repository directly.
 - Don't edit approved files in place. A change is a new version; the old
   one moves to the phase's `Archive/` folder.
 
