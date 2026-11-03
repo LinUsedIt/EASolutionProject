@@ -34,6 +34,68 @@ without needing the original conversation.
 
 ## Entries
 
+### [2026-11-03] — Reorganization for GitHub submission (OSM Architecture)
+
+**Participants:** Emmanuel (Em), Laufey
+
+**Summary:** Sir Pira asked that all ADM documents and the project be
+submitted through a GitHub repo shared with him. Em asked Laufey to add an
+`OSM Architecture/` folder beside the other three top-level folders,
+organized by ADM phase and by the TOGAF Architecture Repository components
+(Jager 2025, Ch. 7, pp. 129-136). It was seeded with copies of the v0.1
+Phase A-D documents and diagrams. Laufey first built a README and an Index
+inside it, then removed both (and the folder READMEs) at Em's request, since
+Sir does not need them; empty folders got `.gitkeep`. Files in the folder
+were renamed to `<Title> - v<X.Y>.<ext>`. Laufey added `/spec-driven`
+(Approach A and B), `/publish-output`, and `.claude/rules/osm-architecture.md`;
+updated `file-placement.md`, `user-specs.md`, `build-deliverable`,
+`CLAUDE.md`, and rewrote the root `README.md` to explain the project and
+emphasize `OSM Architecture/`. Em renamed the GitHub repo; Laufey explained
+that the local folder name does not change and the remote URL needs
+`git remote set-url`.
+
+**Decisions Made:**
+- Whole repo shared; `OSM Architecture/` is the front door, approved outputs only.
+- No README or index inside `OSM Architecture/`.
+- Draft names keep the assignment identifier; submission names drop it, the date, and phase codes.
+- Spec Driven Approach A/B is the standard workflow; worksheets in `Users Directory/User Specs/Worksheets/`.
+
+**Risks / Open Items:**
+- Remote URL still points at the old repo name; teammates must update too.
+- Repo still contains named interview transcripts and the TOGAF Readings.
+- Seeded files are v0.1 (submitted), not yet approved v1.0.
+- Many deletions in `Generated Outputs/` and the renamed SSE/SED transcripts predate this session; they are committed together here.
+
+**Next Steps:**
+- Update the remote URL (Em to share the new URL) and push.
+- Decide when to promote v0.1 files to v1.0.
+- Use `/spec-driven` for the next ADM phase work.
+
+### [2026-10-30] — A3 Phase A documents and submission folder
+
+**Participants:** Emmanuel (Em), Laufey
+
+**Summary:** Em filled in the Phase A worksheet (`Users Directory/User Specs/Phase A - Inputs Worksheet (FILLED OUT).epub`). Laufey compared it with Aldrin's Phase B and Clark's Phases C and D, and Em answered the conflicts. Laufey then filled the official templates for the Architecture Vision, Statement of Architecture Work, and Capability Assessment, and drew two new diagrams (Value Chain, Solution Concept). Blank worksheet answers (A5, A6, B6, C3 to C6) were filled by Laufey from the evidence, and the readiness and capability ratings are marked as the team's assessment. All documents were moved to `Users Directory/Course Assignments/Assignment 3 - Phase A - D/ADM Phases A - D/`. Across Phases A to D, Laufey removed the DRAFT watermark, set one table format (Clark's), set all documents to version 0.1 with a single version-history row, updated footers and contents page numbers, restored the missing "Prepared By" row in Phase B, filled the distribution lists, and embedded Phase B's diagrams in Aldrin's documents. A comparison confirmed that no wording was lost from the Phase B and C-D bodies; only figure captions were added. Layout was checked in LibreOffice, not in Word. The internal Architecture Repository Index is in `AI Directory/Generated Outputs/`.
+
+**Decisions Made:**
+- Phase A uses three consecutive semesters and OSM's mentor-change flow, and adopts Phase B's 100% targets.
+- Teammates' wording is not edited; only formatting, metadata, and figures changed.
+- The repository index stays out of the submission.
+- The latest Phase B versions were renamed without "(v2)". Older versions, the brief, and the change list stay in Generated Outputs.
+
+**Risks / Open Items:**
+- ISS-009: three semesters (Phase A) versus two (Phase B ARS).
+- ISS-010: mentor approval chain to double-check.
+- ISS-011: 100% targets and the 20 to 30 mentee average (about 9 by simple division).
+- ISS-012: mentor-change flow differs between Phase A and Phase B diagram B3.
+- Mentor interviews were not done separately; Em treats the coordinators' answers as covering mentors.
+- Not yet confirmed with Sir Pira: template selection and one document per template.
+
+**Next Steps:**
+- Em reviews the Phase A documents, including Laufey's ratings.
+- Aldrin and Clark look over the reformatted files.
+- Upload the three phase folders to the shared Google Drive folder.
+
 ### [2026-10-30] — A3 Phase B: change list applied, Roadmap Section 3 drafted, pushed
 
 **Participants:** Aldrin, Laufey

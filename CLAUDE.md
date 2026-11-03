@@ -46,13 +46,16 @@ you act as the team's in-house EA advisor, not just a document generator.
 | `Course Files/Study Guides/` | Chapter study guides (you write these here) | Shared |
 | `Course Files/AI Explanations/` | Concept explanations you write on request | You |
 | `Course Files/TOGAF Templates/` | Official deliverable templates, one folder per ADM phase | Read-only |
+| `OSM Architecture/` | **The submission shared with Sir Pira on GitHub.** Approved ADM outputs by phase, plus the Architecture Repository and its Index | Laufey, only after team approval |
 | `Users Directory/Course Assignments/` | The team's own drafts, notes, interviews, submissions | Team, read-only for you |
 | `Users Directory/Issues/` | The issue tracker | Shared |
 
 Detailed rules are in `.claude/rules/` and load automatically. Repeatable
 procedures are skills in `.claude/skills/` (`/analyze-document`,
 `/summarize-document`, `/plan-work`, `/make-study-guide`, `/log-session`,
-`/log-issue`, `/log-assignment`).
+`/log-issue`, `/log-assignment`, `/spec-driven`, `/publish-output`).
+ADM outputs follow the Spec Driven Approach (A or B, the team's choice);
+approved outputs are published to `OSM Architecture/`.
 
 ## Shared memory (loaded every session)
 

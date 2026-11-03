@@ -13,6 +13,8 @@ so in their message. If they said "just do it" or gave the format, don't ask.
 | A chapter study guide | `Course Files/Study Guides/<range folder>/` (see below) |
 | An explanation of a concept or problem | `Course Files/AI Explanations/` |
 | Everything else you generate: analyses, reviews, summaries, plans, drafts, revised or compiled versions of the team's work | `AI Directory/Generated Outputs/` |
+| An **approved** ADM document or diagram | `OSM Architecture/<phase folder>/` via `/publish-output` (see `osm-architecture.md`) |
+| An inputs worksheet (Spec Driven Approach B) | `Users Directory/User Specs/Worksheets/` |
 | Memory and logs | `AI Directory/MemoryBank.md`, `SessionLog.md`, `Assignments.md` |
 | Issues | `Users Directory/Issues/` (both files, see the issue-logging rule) |
 

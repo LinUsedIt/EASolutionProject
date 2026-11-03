@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="930" viewBox="0 0 1170 930" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6b7280"/></marker></defs>
+<rect width="1170" height="930" fill="white"/>
+<text x="40" y="38" font-size="20" font-weight="600" fill="#1f2937">Mentor Change: Target (proposed)</text>
+<text x="40" y="62" font-size="13" fill="#4b5563">One tracked request queue replaces the email relay; the register updates itself</text>
+<rect x="40" y="80" width="240" height="788" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="160.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Student</text>
+<rect x="280" y="80" width="240" height="788" fill="white" stroke="#d1d5db"/>
+<text x="400.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Office of Student Mentoring</text>
+<rect x="520" y="80" width="240" height="788" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="640.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">School Mentoring Coordinator</text>
+<rect x="760" y="80" width="240" height="788" fill="white" stroke="#d1d5db"/>
+<text x="880.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Mentor</text>
+<rect x="60.0" y="140.0" width="200" height="64" rx="32" fill="#ecfdf5" stroke="#047857" stroke-width="1.5"/>
+<text x="160.0" y="168.0" text-anchor="middle" font-size="12" fill="#1f2937">Student wants</text>
+<text x="160.0" y="184.0" text-anchor="middle" font-size="12" fill="#1f2937">a different mentor</text>
+<rect x="60.0" y="244.0" width="200" height="64" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="160.0" y="264.0" text-anchor="middle" font-size="12" fill="#1f2937">Submits change request</text>
+<text x="160.0" y="280.0" text-anchor="middle" font-size="12" fill="#1f2937">(reason, preferred mentor)</text>
+<text x="160.0" y="296.0" text-anchor="middle" font-size="12" fill="#1f2937">in central workflow</text>
+<rect x="300.0" y="348.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="400.0" y="376.0" text-anchor="middle" font-size="12" fill="#1f2937">Sees every request in</text>
+<text x="400.0" y="392.0" text-anchor="middle" font-size="12" fill="#1f2937">one tracked queue</text>
+<rect x="540.0" y="452.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="640.0" y="472.0" text-anchor="middle" font-size="12" fill="#1f2937">Reviews request; picks</text>
+<text x="640.0" y="488.0" text-anchor="middle" font-size="12" fill="#1f2937">mentor with capacity</text>
+<text x="640.0" y="504.0" text-anchor="middle" font-size="12" fill="#1f2937">from the register</text>
+<polygon points="780.0,588.0 880.0,550.0 980.0,588.0 880.0,626.0" fill="#fff7ed" stroke="#c2410c" stroke-width="1.5"/>
+<text x="880.0" y="584.0" text-anchor="middle" font-size="12" fill="#1f2937">Mentor accepts</text>
+<text x="880.0" y="600.0" text-anchor="middle" font-size="12" fill="#1f2937">in the workflow?</text>
+<rect x="300.0" y="660.0" width="200" height="64" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="400.0" y="688.0" text-anchor="middle" font-size="12" fill="#1f2937">Register updates</text>
+<text x="400.0" y="704.0" text-anchor="middle" font-size="12" fill="#1f2937">automatically</text>
+<rect x="60.0" y="764.0" width="200" height="64" rx="32" fill="#ecfdf5" stroke="#047857" stroke-width="1.5"/>
+<text x="160.0" y="792.0" text-anchor="middle" font-size="12" fill="#1f2937">Student, old and new</text>
+<text x="160.0" y="808.0" text-anchor="middle" font-size="12" fill="#1f2937">mentor notified</text>
+<path d="M160.0 204.0V244.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M160.0 308.0V334.0H400.0V348.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M400.0 412.0V438.0H640.0V452.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M640.0 516.0V536.0H880.0V550.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M400.0 724.0V750.0H160.0V764.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M980.0 588.0H996.0V484.0H740.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1000.0" y="536.0" text-anchor="start" font-size="11" font-style="italic" fill="#4b5563">no: pick another</text>
+<path d="M880.0 626.0V646.0H400.0V660.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="640.0" y="641.0" text-anchor="middle" font-size="11" font-style="italic" fill="#4b5563">yes</text>
+<text x="40" y="908" font-size="12" fill="#4b5563">Proposed success measure: decided within 2 working days; 100% of requests tracked.</text>
+</svg>

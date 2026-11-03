@@ -47,8 +47,10 @@ the end.
   claims; use the `togaf-researcher` agent only when a claim needs a
   citation and the study guides don't cover it.
 - Save per `.claude/rules/file-placement.md`:
-  `AI Directory/Generated Outputs/YYYY-MM-DD - Phase <X> - <Template>.<ext>`
+  `AI Directory/Generated Outputs/YYYY-MM-DD - A<n> - Phase <X> - <Template>.<ext>`
   with the spec's `format` (ask once if blank). Never overwrite; use `(v2)`.
+- This is a **draft**. Once a team member approves it, `/publish-output`
+  copies it into `OSM Architecture/` with the standard name and version.
 - Reopen the file and check the text and tables came out right.
 - `refine` mode: the input is the team's own draft. Save a revised version
   in `Generated Outputs`, say which file it is based on, and never touch

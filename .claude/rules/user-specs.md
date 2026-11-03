@@ -12,6 +12,8 @@ it to the right skill or agent.
 - **Laufey may create new spec files** in that folder when it needs input
   first: an inputs sheet with the questions pre-filled for the team to
   answer. Name it `<Topic> - Inputs.md`. Never overwrite an existing spec.
+- **Worksheets** for Spec Driven Approach B go in `Users Directory/User Specs/Worksheets/`
+  (see `.claude/skills/spec-driven/SKILL.md`).
 - **Only act on specs marked `status: ready`.** A `draft` spec is still
   being written; say so and stop.
 - **Frontmatter** at the top of each spec says what it is (see

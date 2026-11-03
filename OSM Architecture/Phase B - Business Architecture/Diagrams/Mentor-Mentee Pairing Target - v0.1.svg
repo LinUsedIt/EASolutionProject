@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1410" height="1264" viewBox="0 0 1410 1264" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6b7280"/></marker></defs>
+<rect width="1410" height="1264" fill="white"/>
+<text x="40" y="38" font-size="20" font-weight="600" fill="#1f2937">Mentor-Mentee Pairing: Target (proposed)</text>
+<text x="40" y="62" font-size="13" fill="#4b5563">One student-list route and one central pairing register; the coordinator keeps the pairing decision</text>
+<rect x="40" y="80" width="240" height="1100" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="160.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Registrar</text>
+<rect x="280" y="80" width="240" height="1100" fill="white" stroke="#d1d5db"/>
+<text x="400.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Office of Student Mentoring</text>
+<rect x="520" y="80" width="240" height="1100" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="640.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">School Mentoring Coordinator</text>
+<rect x="760" y="80" width="240" height="1100" fill="white" stroke="#d1d5db"/>
+<text x="880.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Mentor</text>
+<rect x="1000" y="80" width="240" height="1100" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="1120.0" y="101" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Student</text>
+<rect x="60.0" y="140.0" width="200" height="64" rx="32" fill="#ecfdf5" stroke="#047857" stroke-width="1.5"/>
+<text x="160.0" y="176.0" text-anchor="middle" font-size="12" fill="#1f2937">Term starts</text>
+<rect x="60.0" y="244.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="160.0" y="272.0" text-anchor="middle" font-size="12" fill="#1f2937">Sends ONE official list</text>
+<text x="160.0" y="288.0" text-anchor="middle" font-size="12" fill="#1f2937">per term to OSM</text>
+<rect x="300.0" y="348.0" width="200" height="64" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="400.0" y="368.0" text-anchor="middle" font-size="12" fill="#1f2937">Loads list into central</text>
+<text x="400.0" y="384.0" text-anchor="middle" font-size="12" fill="#1f2937">pairing register; sorted</text>
+<text x="400.0" y="400.0" text-anchor="middle" font-size="12" fill="#1f2937">by school and sex</text>
+<rect x="1020.0" y="452.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="1120.0" y="472.0" text-anchor="middle" font-size="12" fill="#1f2937">Returning students confirm</text>
+<text x="1120.0" y="488.0" text-anchor="middle" font-size="12" fill="#1f2937">keep / change mentor</text>
+<text x="1120.0" y="504.0" text-anchor="middle" font-size="12" fill="#1f2937">in the central workflow</text>
+<rect x="780.0" y="556.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="880.0" y="584.0" text-anchor="middle" font-size="12" fill="#1f2937">Declares capacity</text>
+<text x="880.0" y="600.0" text-anchor="middle" font-size="12" fill="#1f2937">for the term</text>
+<rect x="540.0" y="660.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="640.0" y="680.0" text-anchor="middle" font-size="12" fill="#1f2937">Pairs within same school</text>
+<text x="640.0" y="696.0" text-anchor="middle" font-size="12" fill="#1f2937">using register (history,</text>
+<text x="640.0" y="712.0" text-anchor="middle" font-size="12" fill="#1f2937">preferences, capacity)</text>
+<polygon points="540.0,796.0 640.0,758.0 740.0,796.0 640.0,834.0" fill="#fff7ed" stroke="#c2410c" stroke-width="1.5"/>
+<text x="640.0" y="792.0" text-anchor="middle" font-size="12" fill="#1f2937">Same-school mentor</text>
+<text x="640.0" y="808.0" text-anchor="middle" font-size="12" fill="#1f2937">has capacity?</text>
+<rect x="540.0" y="868.0" width="200" height="64" rx="8" fill="white" stroke="#6b7280" stroke-width="1.25"/>
+<text x="640.0" y="888.0" text-anchor="middle" font-size="12" fill="#1f2937">Absorbs or cross-school</text>
+<text x="640.0" y="904.0" text-anchor="middle" font-size="12" fill="#1f2937">referral, recorded</text>
+<text x="640.0" y="920.0" text-anchor="middle" font-size="12" fill="#1f2937">in the register</text>
+<rect x="540.0" y="972.0" width="200" height="64" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="640.0" y="1000.0" text-anchor="middle" font-size="12" fill="#1f2937">Finalizes pairings</text>
+<text x="640.0" y="1016.0" text-anchor="middle" font-size="12" fill="#1f2937">in the register</text>
+<rect x="300.0" y="1076.0" width="200" height="64" rx="32" fill="#ecfdf5" stroke="#047857" stroke-width="1.5"/>
+<text x="400.0" y="1096.0" text-anchor="middle" font-size="12" fill="#1f2937">Automatic notices to</text>
+<text x="400.0" y="1112.0" text-anchor="middle" font-size="12" fill="#1f2937">mentors and students;</text>
+<text x="400.0" y="1128.0" text-anchor="middle" font-size="12" fill="#1f2937">register kept for next term</text>
+<path d="M160.0 204.0V244.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M160.0 308.0V334.0H400.0V348.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M400.0 412.0V438.0H1120.0V452.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M1120.0 516.0V542.0H880.0V556.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M880.0 620.0V646.0H640.0V660.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M640.0 724.0V758.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M640.0 1036.0V1062.0H400.0V1076.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M540.0 796.0H524.0V1004.0H540.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="520.0" y="900.0" text-anchor="end" font-size="11" font-style="italic" fill="#4b5563">yes</text>
+<path d="M640.0 834.0V868.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="648.0" y="855.0" text-anchor="start" font-size="11" font-style="italic" fill="#4b5563">no</text>
+<path d="M640.0 932.0V972.0" fill="none" stroke="#6b7280" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="40" y="1220" font-size="12" fill="#4b5563">Data owner: OSM maintains the register each term (student status updates).</text>
+<text x="40" y="1242" font-size="12" fill="#4b5563">Assisted / automated matching is a later transition step, not part of this target.</text>
+</svg>

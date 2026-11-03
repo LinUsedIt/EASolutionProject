@@ -1,83 +1,67 @@
-# EASolutionProject
+# OSM Architecture: Enterprise Architecture for the Mentoring Unit, UA&P
 
-> **Course:** IT Elective: Solution Architecture. Despite the name, this
-> course is about **Enterprise Architecture (EA)**, and that's the lens for
-> all the work in this repo.
-> **Professor:** Sir Pira
-> **Team:** Emmanuel Velasco · Deejay Clark Datu · Aldrin
-> **Status:** In progress
+**Course:** IT Elective: Solution Architecture (Enterprise Architecture)
+**Professor:** Sir Pira
+**Team:** Emmanuel Velasco, Deejay Clark Datu, Aldrin
 
-## 1. Project Description
+## About the project
 
-This repository is the team's working space for an Enterprise Architecture
-practicum built around the TOGAF® Standard. The team applies the TOGAF
-Architecture Development Method (ADM) to a real enterprise: the
-**Mentoring Unit of the Center for Student Affairs (CSA), University of
-Asia and the Pacific (UA&P)**. The team interviewed its operations
-coordinators on 2026-09-11 and 2026-09-28.
+This repository holds an Enterprise Architecture developed with the TOGAF®
+Standard's Architecture Development Method (ADM). The enterprise is the
+**Mentoring Unit (Office of Student Mentoring, OSM) of the Center for Student
+Affairs (CSA), University of Asia and the Pacific (UA&P)**.
 
-There are no fixed roles or deliverables. The team works on whatever the
-professor asks for. Each request is recorded in
-[`AI Directory/Assignments.md`](AI%20Directory/Assignments.md) so nothing
-gets lost between sessions.
+The Mentoring Program is one of UA&P's hallmarks, supporting the integral
+formation of students. The unit keeps the program uniform and centralized
+across schools. From AY 2026-27, every student must have at least 3
+mentoring sessions per semester, and missing this for two consecutive
+semesters affects enrollment. The architecture moves the unit from its
+current way of working (long email chains for mentor changes, reliance on
+schools and the Registrar for pairings, uncertain session logging) to a
+centralized, trackable mentoring workflow. The architecture is built from
+interviews with the unit's operations staff and with School Mentoring
+Coordinators.
 
-## 2. Working with Laufey (the AI assistant)
+## Where to look: `OSM Architecture/`
 
-Laufey is Claude Code, set up for this project by
-[`CLAUDE.md`](CLAUDE.md) and the files in `.claude/`.
+**The submission is the [`OSM Architecture/`](OSM%20Architecture/) folder.**
+Everything the team has approved is there, organized by ADM phase:
 
-**Always open Claude Code from the `EASolutionProject` folder.** That's
-how it finds Laufey's rules, memory, skills, and settings. Opened from
-any other folder, it's just plain Claude.
-
-Useful commands (Laufey also uses these on its own when your request
-matches):
-
-| Command | What it does |
+| Folder | What it holds |
 |---|---|
-| `/analyze-document` | Reviews a draft or document against TOGAF and the professor's requirements |
-| `/summarize-document` | Gives a faithful summary of a document |
-| `/plan-work` | Makes a plan with tasks, owners, and dates, or stress-tests yours |
-| `/make-study-guide` | Writes a chapter study guide into `Course Files/Study Guides/` |
-| `/log-assignment` | Records what the professor asked for |
-| `/log-issue` | Adds, updates, or closes an issue |
-| `/log-session` | Records the session in the memory files |
+| [`Preliminary/`](OSM%20Architecture/Preliminary) | Preliminary Phase outputs |
+| [`Phase A - Architecture Vision/`](OSM%20Architecture/Phase%20A%20-%20Architecture%20Vision) | Architecture Vision, Statement of Architecture Work, Capability Assessment, and diagrams |
+| [`Phase B - Business Architecture/`](OSM%20Architecture/Phase%20B%20-%20Business%20Architecture) | Architecture Requirements Specification, Architecture Roadmap, business diagrams |
+| [`Phase C - Information Systems Architectures/`](OSM%20Architecture/Phase%20C%20-%20Information%20Systems%20Architectures) | Data and Application architecture deliverables and diagrams |
+| [`Phase D - Technology Architecture/`](OSM%20Architecture/Phase%20D%20-%20Technology%20Architecture) | Technology architecture deliverables |
+| `Phase E` to `Phase H`, `Requirements Management/` | For later phases; empty until that work starts |
+| [`Architecture Repository/`](OSM%20Architecture/Architecture%20Repository) | The TOGAF Architecture Repository, organized by its components: Architecture Metamodel, Architecture Landscape (Strategic, Segment, Capability), Solutions Landscape, Architecture Requirements Repository, Reference Library, Standards Library, Governance Repository, Architecture Capability |
 
-Laufey asks what format you want (Markdown, Word, or PDF) before creating
-a file, unless you've already said.
+Phase folders hold the deliverables. The Architecture Repository holds the
+reusable and governing assets behind them. Diagrams are in each phase's
+`Diagrams/` subfolder (PNG and SVG). Files are named
+`<Title> - v<major>.<minor>`: `v0.x` is a draft submitted for review,
+`v1.0` and above are approved baselines, and superseded versions move to an
+`Archive/` folder.
 
-## 3. How the Repo Is Organized
+## Other folders (the team's working files)
 
-The repo is organized around **who uses each part**.
-
-| Path | What's there |
+| Folder | What it is |
 |---|---|
-| [`CLAUDE.md`](CLAUDE.md) | Laufey's identity, personality, and project context. Loads every session. |
-| `.claude/rules/` | Laufey's detailed rules, one topic per file. Load every session. |
-| `.claude/skills/` | The slash commands above |
-| `.claude/agents/` | Two helper agents: `togaf-researcher` (finds cited passages in the Readings) and `deliverable-reviewer` (independent review of drafts) |
-| `.claude/settings.json` | Makes Claude Code ask before Laufey edits its own rules or the team's files |
-| **AI Directory/** | Laufey's memory and outputs |
-| [`MemoryBank.md`](AI%20Directory/MemoryBank.md) | Current project snapshot, decisions, open questions |
-| [`Assignments.md`](AI%20Directory/Assignments.md) | Everything the professor has asked for |
-| [`SessionLog.md`](AI%20Directory/SessionLog.md) | History of every session, newest first |
-| `Generated Outputs/` | Analyses, plans, summaries, and drafts Laufey produces |
-| `Workflows/` | Replaced by the skills in `.claude/skills/` |
-| **Course Files/** | Shared course material |
-| `Readings/` | The only TOGAF sources Laufey cites: The TOGAF® Standard 10th Ed., the TOGAF® EA Foundation Study Guide, and *Mastering the TOGAF® Standard* (Eric Jager) |
-| `Study Guides/` | Chapter study guides |
-| `AI Explanations/` | Concept explanations Laufey writes on request |
-| `TOGAF Templates/` | Official deliverable templates, one folder per ADM phase |
-| **Users Directory/** | The team's own work |
-| `Course Assignments/` | Drafts, notes, interviews, and submissions, one folder per assignment |
-| `Issues/` | [`CurrentIssues.md`](Users%20Directory/Issues/CurrentIssues.md) and `CurrentIssuesList.csv`, kept in sync |
+| `AI Directory/` | Working memory and generated drafts of the AI assistant |
+| `Course Files/` | Course readings, TOGAF templates, and study guides |
+| `Users Directory/` | The team's own drafts, notes, interview material, specs, and issue tracker |
+| `.claude/`, `CLAUDE.md` | Configuration for the team's AI assistant, Laufey (Claude Code) |
 
-> **Note:** the professor's assignment guides are instructions for the
-> assignment, not TOGAF sources. Laufey uses them for requirements only.
+## How the team works (brief)
 
-## 4. Changing Laufey's Rules
+Work follows a **Spec Driven Approach**: the design is agreed first (in
+chat, or through a filled-in worksheet), then the documents are generated.
+Drafts are reviewed by the team, and only approved outputs are saved into
+`OSM Architecture/`. Open Claude Code from this repository's root folder so
+it loads the assistant's rules; its commands (`/spec-driven`,
+`/publish-output`, `/analyze-document`, `/plan-work`, `/log-session`, and
+others) are in `.claude/skills/`. To change the assistant's rules, edit
+`CLAUDE.md` or `.claude/rules/`, or ask it to propose a change.
 
-Edit `CLAUDE.md` or the files in `.claude/rules/` directly, or ask Laufey
-to propose a change. It won't edit them without your approval. Keep
-rules short and specific: Claude follows concise instructions more
-reliably than long ones.
+> TOGAF® is a registered trademark of The Open Group.

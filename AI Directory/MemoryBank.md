@@ -49,17 +49,15 @@ duplicates.)_
   not yet confirmed as Sir's date). Split (set 2026-10-27): Em does Phase A,
   Aldrin does Phase B, Clark does Phases C and D. Em gives inputs and
   Laufey refines and generates the documents, so Em learns and applies
-  TOGAF himself. Submission is Friday 2026-10-30. **Phase B is final
-  (2026-10-30):** the latest files are the **(v2)** ARS and **(v2)** Roadmap
-  in `AI Directory/Generated Outputs/2026-10-30-A3 Phase B/` (the
-  unversioned files there are the 10-29 drafts). v2 applies Clark's Phase
-  C-D change list, fills ARS 2.3/2.6-2.8 and Roadmap 2.2-2.3, and adds
-  preliminary drafts of Roadmap 3.1, 3.2, 3.3.1-3.3.4 and 3.5. **Em: please
-  check both v2 files** (and make sure Phase A uses *two* consecutive
-  semesters, ISS-009) before submission. The ADD owner has not been
-  assigned yet. **Em and Clark:** §7 of the handoff brief (same folder)
-  says which Phase B diagrams to reuse; the diagrams are still in
-  `Generated Outputs/2026-10-29 - A3 Phase B - Diagrams/`. A2 (Proposal Revision) is still unconfirmed as submitted, and its
+  TOGAF himself. Submission is Friday 2026-10-30. All Phases A to D documents (version 0.1) are in
+  `Users Directory/Course Assignments/Assignment 3 - Phase A - D/ADM Phases A - D/`,
+  in `Phase A/`, `Phase B/`, `Phase C/`, and `Phase D/`. Clark's combined Phases C and D
+  document is in both `Phase C/` and `Phase D/`. Phases A, B, and C have a `Diagrams/` folder.
+  They share one format, with no watermark. They were generated on 2026-10-30 for
+  upload to the shared Google Drive folder with Sir Pira. The internal Architecture
+  Repository Index is in `AI Directory/Generated Outputs/` and is not for submission.
+  Older Phase B versions and the Phase B brief and change list also stay there.
+  Phase A deliberately keeps three consecutive semesters (Em, 2026-10-30; ISS-009). A2 (Proposal Revision) is still unconfirmed as submitted, and its
   deadline is not recorded. Sir's A2 feedback: reframe around the business's
   WHY before the HOW.
 - **Study guides:** as of 2026-10-23, every chapter of Jager's book (1-22)
@@ -70,6 +68,20 @@ duplicates.)_
 - **Repo setup:** restructured on 2026-10-16. Laufey's rules are now in
   `CLAUDE.md` and `.claude/rules/`, and its procedures are skills in
   `.claude/skills/`.
+- **Submission (set 2026-11-03):** Sir Pira wants all ADM documents and the
+  project submitted through a GitHub repo shared with him. The submission is
+  the top-level `OSM Architecture/` folder: approved outputs only, by ADM
+  phase (`Preliminary`, `Phase A` to `Phase H`, `Requirements Management`),
+  plus `Architecture Repository/` with the TOGAF components. It was seeded
+  with the v0.1 Phase A-D documents and diagrams (copies; the team's
+  originals are unchanged). It holds no README or index, only deliverables
+  (`.gitkeep` in empty folders). The root `README.md` explains the project
+  and points Sir to it. The GitHub repo was renamed by Em; the local remote
+  URL still needs updating.
+- **Workflow:** `/spec-driven` (Approach A: chat, design, generate; Approach B:
+  design, worksheet in `Users Directory/User Specs/Worksheets/`, review,
+  generate) and `/publish-output` (approved draft to `OSM Architecture/`).
+  Rules in `.claude/rules/osm-architecture.md`.
 
 ## Key Decisions
 _(Append, don't overwrite. One entry per decision, with the date and a
@@ -134,6 +146,30 @@ one-line reason.)_
 - **2026-10-30:** Edits go into the latest version file. Don't make extra
   version copies. Reason: Aldrin's request.
 
+- **2026-10-30:** A3 Phase A uses three of the five templates (Architecture
+  Vision, Statement of Architecture Work, Capability Assessment). There is no
+  separate Architecture Definition Document or Communications Plan. Reason: Em's
+  call to use only what is necessary.
+- **2026-10-30:** Phase A keeps three consecutive semesters and OSM's mentor-change
+  flow, and adopts Phase B's 100% targets. Teammates' wording was not edited.
+  Reason: Em's decisions; the differences are tracked as ISS-009, ISS-011, ISS-012.
+- **2026-10-30:** The mentor approval chain is used as-is for A3 and rechecked later
+  (ISS-010). Reason: Em doubts ManCom approves the list, but the SED interview says so.
+
+- **2026-11-03:** Submission is a GitHub repo shared with Sir Pira, front door
+  `OSM Architecture/` (approved outputs only). Reason: Sir's instruction.
+- **2026-11-03:** No README or index inside `OSM Architecture/`. Reason: Em's
+  call; Sir doesn't need them and may deduct for them. Naming and versions
+  live in `.claude/rules/osm-architecture.md`.
+- **2026-11-03:** Naming. Drafts: `YYYY-MM-DD - A<n> - Phase <X> - <Title> (v2)`.
+  In `OSM Architecture/`: `<Title> - v<major>.<minor>`, with no date, assignment
+  identifier, or phase code. `v0.x` = submitted draft, `v1.0`+ = approved.
+  Reason: Em's call.
+- **2026-11-03:** Whole repo stays shared (including Readings and transcripts),
+  with `OSM Architecture/` as the front door. Spec Driven Approach (A or B,
+  the team's choice) is the standard workflow; worksheets live in
+  `Users Directory/User Specs/Worksheets/`. Reason: Em's answers.
+
 ## Open Questions
 _(Append. Move to Key Decisions once answered.)_
 
@@ -156,6 +192,8 @@ _(Append. Move to Key Decisions once answered.)_
   tools. `Propsal Summary Format.pdf` says the IST department, and
   `Em's Notes 2.pdf` says the unit. The Sheets-linked part was answered
   on 2026-10-29: they are not linked (see Key Decisions).
-- **A3:** who writes the Architecture Definition Document (it spans
-  Phases B to D)? The Phase B target state and "proposed" success measures
-  still need validation with OSM and the sponsor.
+- Should the seeded v0.1 files in `OSM Architecture/` be promoted to v1.0
+  (approved baseline), and do Sir's reviewers see the repo's transcripts and
+  TOGAF PDFs as a problem? (Raised 2026-11-03.)
+- **A3:** the Phase B target state and "proposed" success measures still
+  need validation with OSM and the sponsor.
