@@ -118,6 +118,37 @@ issue is later closed.
 - **Possible Solutions:**
   - Use two consecutive semesters in Phase A
   - Aldrin to correct the Phase B ARS (listed in the 2026-10-30 Phase B change list)
+  - 2026-10-30 update: Em disagrees with Clark and decided Phase A uses **three** consecutive semesters (2026-09-28 interview and Em's Notes 2), since Clark's figure came from AI-generated text. The Phase B ARS and handoff brief say two (Phases C-D do not state a number), and Em chose not to edit teammates' files, so the documents differ in the 2026-10-30 submission
+- **Resolved:** No
+- **Date Resolved:** —
+
+### [ISS-010] — Mentor approval chain needs double-checking
+
+- **Issue:** Phase A, Phase B, and Phases C-D describe mentor approval as: supervisor recommends, then OpCom, then OSM assesses against its own criteria and compiles the list, then ManCom approves the list. The source is the SED interview (Sir Lactao, 2026-10-20, p. 7: "The Mancom approves the list of mentors") and Em's Notes 2. Em doubts that ManCom approves the mentor list; Em's understanding is that ManCom approves programs and policies. The office name "OpCom" (transcribed as "Ofcom") is also unconfirmed. Em decided on 2026-10-30 to use the chain as-is for A3 and recheck it later.
+- **Date Recorded:** 2026-10-30
+- **Possible Solutions:**
+  - Ask Ms. Nina or Ms. Kelai at the next contact who approves the mentor list and the name of the recommending office
+  - Check the Student Handbook or any OSM policy document for the approval chain
+- **Resolved:** No
+- **Date Resolved:** —
+
+### [ISS-011] — Realistic numbers: 100% targets and the mentee average
+
+- **Issue:** Phase A adopts Phase B's 100% targets (SM-01 to SM-06) to stay consistent, but Em considers 100% unrealistic and had proposed 80%. Separately, Phase A states the coordinators' reported average of 20 to 30 mentees per mentor, while about 1,600 students across about 180 mentors works out to about 9. Both need a check before the numbers are relied on.
+- **Date Recorded:** 2026-10-30
+- **Possible Solutions:**
+  - Agree realistic targets with OSM and the sponsor, then update the ARS and the Statement of Architecture Work together
+  - Ask OSM for actual pairing data to confirm the average load and the number of active mentors
+- **Resolved:** No
+- **Date Resolved:** —
+
+### [ISS-012] — Mentor-change flow differs between Phase A and Phase B
+
+- **Issue:** Phase A uses the flow OSM described: the student asks OSM, OSM emails the current mentor, then the requested mentor, then the coordinator, who has the final say. Phase B (brief section 4.2 and the "Mentor Change - Baseline" diagram) shows the coordinator-side flow from the coordinator interviews, where OSM relays the request and the coordinator finds the mentor. Em chose the OSM view for Phase A and left Phase B unedited; the coordinator view may be added later.
+- **Date Recorded:** 2026-10-30
+- **Possible Solutions:**
+  - Confirm with OSM whether both flows occur, and on what basis
+  - Align Phase A and the "Mentor Change - Baseline" diagram after that
 - **Resolved:** No
 - **Date Resolved:** —
 

@@ -46,7 +46,9 @@ it's graded and nothing more is expected.
     the Mentoring Coordinators and Mentors on the mentoring program."
     (Recorded as a recommendation, not a hard requirement.)
 - **Format / submission:** one document per template used. (Em's belief,
-  relayed 2026-10-23; not confirmed as Sir Pira's wording.)
+  relayed 2026-10-23; not confirmed as Sir Pira's wording.) Submitted by
+  uploading the documents to a shared Google Drive folder with Sir Pira
+  (relayed by Em, 2026-10-30).
 - **Team's role:** the team provides inputs (at most). Laufey generates
   the documents. (Relayed by Em, 2026-10-23.)
 - **Feedback from the professor:**
@@ -62,15 +64,14 @@ it's graded and nothing more is expected.
   - Is it one document per template (as Em believes), or one combined
     document? Confirm with Sir.
   - Was A2 (Proposal Revision) submitted? Its status is still unconfirmed.
-- **Team files:** Individual interviews with school Mentoring Coordinators
-  are complete (SSE and SED schools; reported by Em, 2026-10-24). The SSE
-  transcript is filed at `Users Directory/Course Assignments/Assignment 3 - Phase A - D/Transcripts/Mentoring Coordinator Interview - SSE.pdf`
-  (interview dated 2026-10-20, Aldrin asking). The SED transcript is not yet
-  filed. Remaining: interviews with mentors,
-  using the same question set, modified for mentors. The coordinators are
-  also mentors. Scheduled from 2026-10-16 (about 1 hour each).
-  Guide: `AI Directory/Generated Outputs/2026-10-16 - CSA Mentoring - School Coordinator Interview Guide (v2).docx`
-  (v2 trimmed to 18 live questions to fit 60 minutes; the original is kept)
+- **Team files:** `Users Directory/Course Assignments/Assignment 3 - Phase A - D/ADM Phases A - D/`
+  (`Phase A/`, `Phase B/`, `Phase C/`, `Phase D/`; Clark's combined document
+  is in both C and D, and Phases A to C have `Diagrams/`). The
+  interview transcripts and guide are in the Assignment 3 folder.
+  Coordinator interviews are complete: `2026-10-16 interview.pdf` is Dr. Olmos
+  (SSE), and `Mentoring Coordinator Interview - SED.pdf` is Sir Lactao (SED,
+  2026-10-20). The coordinators are also mentors, so Em treats mentor input as
+  largely covered (2026-10-30).
 
 ### A2: Proposal Revision
 
