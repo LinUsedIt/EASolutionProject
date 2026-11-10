@@ -45,10 +45,18 @@ it's graded and nothing more is expected.
   - Sir Pira "recommended that we also try to get the perspectives of
     the Mentoring Coordinators and Mentors on the mentoring program."
     (Recorded as a recommendation, not a hard requirement.)
+  - Include the **TOGAF Enterprise Architecture Checklist** file in the
+    G7-Repository. Every time the phases are updated, the checklist must be
+    updated too; it tracks the changes across the project. Sir Pira said
+    the team forgot to include it (relayed by Em, 2026-11-10). **The team
+    writes and maintains it, not Laufey.**
 - **Format / submission:** one document per template used. (Em's belief,
-  relayed 2026-10-23; not confirmed as Sir Pira's wording.) Submitted by
-  uploading the documents to a shared Google Drive folder with Sir Pira
-  (relayed by Em, 2026-10-30).
+  relayed 2026-10-23; not confirmed as Sir Pira's wording.) Originally to
+  be uploaded to a shared Google Drive folder (relayed by Em, 2026-10-30).
+  **Changed (2026-11-03, relayed by Em):** all ADM documents and the project
+  are submitted through a GitHub repo shared with Sir Pira:
+  `https://github.com/LinUsedIt/G7-Repository` (the contents of
+  `OSM Architecture/`). The GitHub repo supersedes the Google Drive folder.
 - **Team's role:** the team provides inputs (at most). Laufey generates
   the documents. (Relayed by Em, 2026-10-23.)
 - **Feedback from the professor:**
@@ -64,6 +72,8 @@ it's graded and nothing more is expected.
   - Is it one document per template (as Em believes), or one combined
     document? Confirm with Sir.
   - Was A2 (Proposal Revision) submitted? Its status is still unconfirmed.
+  - Checklist: where in the repo should it go, in what format, and does Sir
+    expect a specific template? Is it part of A3 or a separate item?
 - **Team files:** `Users Directory/Course Assignments/Assignment 3 - Phase A - D/ADM Phases A - D/`
   (`Phase A/`, `Phase B/`, `Phase C/`, `Phase D/`; Clark's combined document
   is in both C and D, and Phases A to C have `Diagrams/`). The
