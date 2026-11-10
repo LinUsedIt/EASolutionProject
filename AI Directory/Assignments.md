@@ -29,6 +29,33 @@ it's graded and nothing more is expected.
 
 ## Active
 
+### A4: Remaining ADM phases (Phases E to H)
+
+- **Status:** Not started
+- **Deadline:** 2026-11-27 (Friday). Relayed by Em in chat, 2026-11-10; not
+  yet confirmed whether Sir Pira set it or it is the team's own date.
+- **Source:** relayed by Em in chat, 2026-11-10. Numbering as A4 is Em's.
+- **Requirements:**
+  - "Finish the remaining phases" of the ADM (Em's wording): Phases E, F, G,
+    and H. Whether Requirements Management and the Preliminary Phase are
+    included is not stated.
+  - The TOGAF Enterprise Architecture Checklist must be kept in the
+    G7-Repository and updated whenever phases change (see A3). The team
+    writes it, not Laufey.
+- **Format / submission:** presumably the G7-Repository on GitHub, as in A3
+  (not stated for A4).
+- **Feedback from the professor:**
+  - (none yet)
+- **Open questions:**
+  - Did Sir Pira set 2026-11-27, or is it the team's date?
+  - Only the necessary templates, or all templates in Phases E to H? One
+    document per template?
+  - Is Requirements Management expected as its own deliverable?
+  - Where does the Checklist go, and in what format?
+- **Team files:** `Users Directory/Course Assignments/Assignment 4 - Phase E - H/`
+  (`Assignment 4 - Deliverables List.md`, a proposal by Laufey, not Sir's
+  list).
+
 ### A3: Phases A-D (Architecture Vision through Technology Architecture)
 
 - **Status:** In progress
